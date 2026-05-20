@@ -23,12 +23,26 @@ elif [ "${1:-}" = "--client" ]; then
 fi
 
 ver=$(grep -E '^version\s*=' "$PACK_DIR/pack.toml" | sed -E 's/^version\s*=\s*"([^"]+)".*/\1/')
+neoforge=$(grep -E '^neoforge\s*=' "$PACK_DIR/pack.toml" | sed -E 's/^neoforge\s*=\s*"([^"]+)".*/\1/')
 
 # --- Client zip ---
 if [ "$build_client" = true ]; then
     client_output="$SCRIPT_DIR/ctm-s5-client-${ver}.zip"
     echo "Building client zip..."
     (cd "$PACK_DIR" && packwiz curseforge export -s client -o "$client_output")
+
+    # Workaround: packwiz doesn't write NeoForge into the CF manifest (packwiz#366)
+    if [ -n "$neoforge" ]; then
+        patch_dir=$(mktemp -d)
+        unzip -q "$client_output" manifest.json -d "$patch_dir"
+        jq --arg nf "neoforge-$neoforge" \
+            '.minecraft.modLoaders = [{"id": $nf, "primary": true}]' \
+            "$patch_dir/manifest.json" > "$patch_dir/manifest.patched.json"
+        mv "$patch_dir/manifest.patched.json" "$patch_dir/manifest.json"
+        (cd "$patch_dir" && zip -qr "$client_output" manifest.json)
+        rm -rf "$patch_dir"
+    fi
+
     echo "Client: $client_output"
     echo
 fi

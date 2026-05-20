@@ -17,8 +17,10 @@ jobs:
         name: Read pack.toml
         run: |
           ver=$(grep -E '^version\s*=' pack/pack.toml | sed -E 's/^version\s*=\s*"([^"]+)".*/\1/')
+          neoforge=$(grep -E '^neoforge\s*=' pack/pack.toml | sed -E 's/^neoforge\s*=\s*"([^"]+)".*/\1/')
           base="${{ github.event.repository.name }}"
           echo "version=$ver" >> "$GITHUB_OUTPUT"
+          echo "neoforge=$neoforge" >> "$GITHUB_OUTPUT"
           echo "base=$base" >> "$GITHUB_OUTPUT"
           echo "client_zip=${base}-client-${ver}.zip" >> "$GITHUB_OUTPUT"
           echo "server_zip=${base}-server-${ver}.zip" >> "$GITHUB_OUTPUT"
@@ -36,6 +38,19 @@ jobs:
       - name: Build client zip
         working-directory: pack
         run: packwiz curseforge export -s client -o "../${{ steps.pack.outputs.client_zip }}"
+
+      - name: Patch client manifest (packwiz NeoForge bug workaround)
+        if: steps.pack.outputs.neoforge != ''
+        run: |
+          zip="${{ steps.pack.outputs.client_zip }}"
+          nf="neoforge-${{ steps.pack.outputs.neoforge }}"
+          tmpdir=$(mktemp -d)
+          unzip -q "$zip" manifest.json -d "$tmpdir"
+          jq --arg nf "$nf" '.minecraft.modLoaders = [{"id": $nf, "primary": true}]' \
+            "$tmpdir/manifest.json" > "$tmpdir/manifest.patched.json"
+          mv "$tmpdir/manifest.patched.json" "$tmpdir/manifest.json"
+          (cd "$tmpdir" && zip -qr "$GITHUB_WORKSPACE/$zip" manifest.json)
+          rm -rf "$tmpdir"
 
       - name: Build server zip
         if: env.CURSEFORGE_API_KEY != ''
