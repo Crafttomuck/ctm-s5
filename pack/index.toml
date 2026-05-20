@@ -284,6 +284,11 @@ hash = "6cabae8686cf85c826d1280f00e00d67bb7672d353f669bea9f3775de39dd378"
 metafile = true
 
 [[files]]
+file = "mods/create-aeroworks.pw.toml"
+hash = "68bec75bb847714803cb05eb5e4614123570efb3bb9a134ef487c3d7a153d8a0"
+metafile = true
+
+[[files]]
 file = "mods/create-better-fps.pw.toml"
 hash = "a7250c8da96a2033b7e72213cbbcdad0601cb0750639e49d321f19776c8d0c87"
 metafile = true
@@ -311,6 +316,11 @@ metafile = true
 [[files]]
 file = "mods/create-compatible-storage.pw.toml"
 hash = "7820f513896b8d2ce71a5f95f5ff3739550690e1021c34b984e7c16341195266"
+metafile = true
+
+[[files]]
+file = "mods/create-connected.pw.toml"
+hash = "1ab7a8ef0a41cf6a4c4028a8c7d310a806917392b180413cdb004090145ffdc4"
 metafile = true
 
 [[files]]

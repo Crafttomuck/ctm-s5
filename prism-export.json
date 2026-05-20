@@ -422,6 +422,7 @@
     {
         "filename": "aeroworks-1.2.9.jar",
         "name": "Create: Aeroworks",
+        "url": "https://www.curseforge.com/projects/1522473",
         "version": "1.2.9"
     },
     {
@@ -457,7 +458,7 @@
     {
         "filename": "create_connected-1.1.16-mc1.21.1.jar",
         "name": "Create: Connected",
-        "url": "https://github.com/hlysine/create_connected",
+        "url": "https://www.curseforge.com/projects/947914",
         "version": "1.1.16-mc1.21.1"
     },
     {
@@ -515,16 +516,16 @@
         "version": "2.0.1"
     },
     {
-        "filename": "CreateNumismatics-1.0.19integration+neoforge-mc1.21.1.jar",
-        "name": "Create: Numismatics",
-        "url": "https://www.curseforge.com/projects/1473449",
-        "version": "1.0.19integration+neoforge-mc1.21.1-local"
-    },
-    {
         "filename": "CreateNumismatics-1.0.20+neoforge-mc1.21.1.jar",
         "name": "Create: Numismatics",
         "url": "https://www.curseforge.com/projects/889722",
         "version": "1.0.20+neoforge-mc1.21.1"
+    },
+    {
+        "filename": "CreateNumismatics-1.0.19integration+neoforge-mc1.21.1.jar",
+        "name": "Create: Numismatics",
+        "url": "https://www.curseforge.com/projects/1473449",
+        "version": "1.0.19integration+neoforge-mc1.21.1-local"
     },
     {
         "filename": "create_oxidized-0.1.3.jar",
@@ -543,12 +544,6 @@
         "name": "Create: Power Grid",
         "url": "https://www.curseforge.com/projects/1321420",
         "version": "0.5.5.1"
-    },
-    {
-        "filename": "createrailgrinding-1.1.0.jar",
-        "name": "Create: Rail Grinding",
-        "url": "https://modrinth.com/mod/ix2S0LbR",
-        "version": "1.1.0"
     },
     {
         "filename": "tfmg-1.2.0.jar",
@@ -639,11 +634,6 @@
         "name": "Drive By Wire",
         "url": "https://www.curseforge.com/projects/1520378",
         "version": "0.2.9"
-    },
-    {
-        "filename": "dye_depot-2.0.2-neoforge.jar",
-        "name": "Dye Depot",
-        "version": "2.0.2-neoforge"
     },
     {
         "filename": "emi-1.1.24+1.21.1+neoforge.jar",
