@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "533c5f010b81e4ce01a8dcce1178caa0ec794a162b52b7e10aa001f2822dacf1"
+hash = "3a8b18712267a17a9f48fdd83b98236d45d8032d476c7a3e4396f8ca541f506e"
 
 [[files]]
 file = "icon.png"
@@ -349,11 +349,6 @@ hash = "553741cf86630ed14caba26768da5b1518a38e7bf7e82de1c179b9342227d546"
 metafile = true
 
 [[files]]
-file = "mods/create-encased.pw.toml"
-hash = "fa00a0d9631a283d650a6f4c0fc0bbaea839d3e1496a179dbecf506185439165"
-metafile = true
-
-[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "37c21deaf7e65569fa9dcc59a477a55ab8937153c591f1bc4d6249de9582044f"
 metafile = true
@@ -665,7 +660,7 @@ metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "453b554f6cb537425b1275bab92e8cd3238ef6b81c4c95f78f0f132758ef6d0a"
+hash = "5bc0953394cdd5a21d9f9c5a89dfa62ff84e43fc6a19fc5afdb7834e152386b9"
 metafile = true
 
 [[files]]
@@ -1060,7 +1055,7 @@ metafile = true
 
 [[files]]
 file = "mods/ponder-for-kaleidoscope-cookery.pw.toml"
-hash = "dd1344b831e266d10912179b877fe7708b6db377974cea219c3b816d94e4f238"
+hash = "4a03f7809adb6674aceda3166726ad5c0e7526328eabd52347b5d9b5723fd16f"
 metafile = true
 
 [[files]]

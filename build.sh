@@ -93,6 +93,7 @@ if [ "$build_server" = true ]; then
         cp "$PACK_DIR/servers.dat" "$tmpdir/"
     fi
 
+    rm -f "$server_output"
     echo "Creating $server_output..."
     (cd "$tmpdir" && zip -qr "$server_output" .)
 
