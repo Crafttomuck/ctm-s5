@@ -1,0 +1,13 @@
+name = "CTM: Cogs and Canvas"
+author = "CTM Staff"
+version = "0.0.5"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "771179733e57702b3f69878459eeb14a64bb25607569b1d9e04c9a69940cc7b0"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.227"

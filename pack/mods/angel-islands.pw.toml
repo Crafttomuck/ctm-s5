@@ -1,0 +1,13 @@
+name = "Angel Islands"
+filename = "angel-islands-2.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bf98a52a2044a4bcb65179ec78a9e732a969f6ba"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7359122
+project-id = 1409893

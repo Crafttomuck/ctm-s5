@@ -1,0 +1,13 @@
+name = "Epic Structures: Witch Huts"
+filename = "Epic Witch Huts v1.3.0 (1.21+).jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "477ab6124b2948b0cac3440d646c291765e1a9d0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7996218
+project-id = 1335768

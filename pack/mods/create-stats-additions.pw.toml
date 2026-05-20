@@ -1,0 +1,13 @@
+name = "Create: Stats & Additions"
+filename = "create_stats-0.10.35.T.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "112691e26f3f806f87474fff54de3dd6ef2306aa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7997923
+project-id = 1511282

@@ -1,0 +1,13 @@
+name = "Ponder For Kaleidoscope Cookery"
+filename = "ponderforkc-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d615e051573998f2d71b6c7ee1f56fa19c91dbd8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7661880
+project-id = 1467051

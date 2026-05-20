@@ -1,0 +1,13 @@
+name = "Simple Grappling Hook"
+filename = "grappling_hook-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "65544633701357f16d5c453a3e22efcb981f6632"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7891205
+project-id = 1507542

@@ -1,0 +1,13 @@
+name = "Synaxis"
+filename = "synaxis-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e33bae1aba53ab286b1c0220fa3b38406db4cac4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8104409
+project-id = 1526348

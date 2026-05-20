@@ -1,0 +1,13 @@
+name = "Molten Vents Worldgen"
+filename = "molten_vents_worldgen_heat_recipe.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "97cfa1b8ecc663763101e87390ae7830ca425723"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8063497
+project-id = 1465241

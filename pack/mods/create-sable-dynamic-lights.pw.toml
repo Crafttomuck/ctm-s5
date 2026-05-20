@@ -1,0 +1,13 @@
+name = "Create Sable Dynamic Lights"
+filename = "create-dyn-light-2.3.1-sodium-sable.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d8db69c0b72b750feaa2c4ed41de906bdebd1e5f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8006631
+project-id = 1528076

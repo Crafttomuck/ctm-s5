@@ -1,0 +1,13 @@
+name = "Kaleidoscope Cookery Automation"
+filename = "kaleidoscopecookery_automation-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b85dba8abd2170d87f60d9eddd872e597ab54d05"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7745520
+project-id = 1467064

@@ -1,0 +1,13 @@
+name = "Hearthstone Mod"
+filename = "HearthstoneMod-1.21.1-2.1.0-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dc12db999175bda537f4079a0ff7a0997524c4d5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7953482
+project-id = 243491

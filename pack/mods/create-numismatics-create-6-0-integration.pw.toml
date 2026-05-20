@@ -1,0 +1,13 @@
+name = "Create: Numismatics (Create 6.0 Integration)"
+filename = "CreateNumismatics-1.0.19integration+neoforge-mc1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "14385a77350e9ca85f78eca1143d591a69e36f96"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7687784
+project-id = 1473449
