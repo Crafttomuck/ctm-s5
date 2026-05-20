@@ -24,7 +24,320 @@ REMOVED_TAB = "Removed"
 TRACKING_TAB = "_tracking"
 
 # Columns in the Mods/Removed tabs
-HEADERS = ["Name", "Version", "Add On For", "Category", "Added By", "Notes"]
+HEADERS = ["Name", "Version", "Category", "Added By", "Notes"]
+
+# ---------------------------------------------------------------------------
+# Mod categories — keyed by mod name from prism-export.json
+# ---------------------------------------------------------------------------
+
+CATEGORIES: dict[str, str] = {
+    # --- Create ecosystem ---
+    "Aileron": "Create",
+    "Aeronautics Claims": "Create",
+    "Create": "Create",
+    "Create : Numismatic Bounties": "Create",
+    "Create Aeronautics": "Create",
+    "Create Bits 'n' Bobs": "Create",
+    "Create Crafts & Additions": "Create",
+    "Create Deco": "Create",
+    "Create Diesel Generators": "Create",
+    "Create Dynamic Lights": "Create",
+    "Create Encased": "Create",
+    "Create Goggles": "Create",
+    "Create Jetpack": "Create",
+    "Create More: Parallel Pipes": "Create",
+    "Create Rail Grinding": "Create",
+    "Create Railways Navigator": "Create",
+    "Create Shuffle Filter": "Create",
+    "Create Slice & Dice": "Create",
+    "Create Stats and Numbers": "Create",
+    "Create Stuff & Additions": "Create",
+    "Create Tracks": "Create",
+    "Create: Aeroworks": "Create",
+    "Create: Bells & Whistles": "Create",
+    "Create: Big Contraptions": "Create",
+    "Create: Blocks & Bogies": "Create",
+    "Create: Central Kitchen": "Create",
+    "Create: Compatible Storage": "Create",
+    "Create: Connected": "Create",
+    "Create: Copper and Zinc": "Create",
+    "Create: Copycats+": "Create",
+    "Create: Dragons Plus": "Create",
+    "Create: Enchantment Industry": "Create",
+    "Create: Escalated": "Create",
+    "Create: Filters Anywhere": "Create",
+    "Create: Framed": "Create",
+    "Create: Interiors": "Create",
+    "Create: More Girder": "Create",
+    "Create: Numismatics": "Create",
+    "Create: Oxidized": "Create",
+    "Create: Pattern Schematics": "Create",
+    "Create: Power Grid": "Create",
+    "Create: Rail Grinding": "Create",
+    "Create: The Factory Must Grow": "Create",
+    "Create: Threaded Trains": "Create",
+    "Create: Trading Floor": "Create",
+    "CreateBetterFps": "Create",
+    "Drive By Wire": "Create",
+    "Iris Flywheel Compat": "Create",
+    "Molten Vents": "Create",
+    "Sable": "Create",
+    "Sable Schematic API": "Create",
+    "Sable: Stuff&Additions Compatibility": "Create",
+    "Synaxis": "Create",
+    "Vista Aeronautics Fix": "Create",
+
+    # --- Decoration & Building ---
+    "Amendments": "Decoration",
+    "Another Furniture": "Decoration",
+    "AntiBlocksReChiseled": "Decoration",
+    "Architects Palette": "Decoration",
+    "Arts & Crafts": "Decoration",
+    "Beautify": "Decoration",
+    "Clayworks": "Decoration",
+    "Decorative Blocks Reborn": "Decoration",
+    "Design n' Decor": "Decoration",
+    "Diagonal Fences": "Decoration",
+    "Dramatic Doors (NeoQuiFab)": "Decoration",
+    "Dye Depot": "Decoration",
+    "FramedBlocks": "Decoration",
+    "Handcrafted": "Decoration",
+    "Iden's Decor": "Decoration",
+    "Immersive Furniture": "Decoration",
+    "Immersive Paintings": "Decoration",
+    "Macaw's Bridges": "Decoration",
+    "Macaw's Doors": "Decoration",
+    "Macaw's Paths and Pavings": "Decoration",
+    "Macaw's Trapdoors": "Decoration",
+    "Macaw's Windows": "Decoration",
+    "ManyIdeas Doors": "Decoration",
+    "Rechiseled": "Decoration",
+    "Rechiseled: AE2": "Decoration",
+    "Rechiseled: Create": "Decoration",
+    "Unusual Furniture": "Decoration",
+    "Woodworks": "Decoration",
+
+    # --- Worldgen & Structures ---
+    "Angel Islands": "Worldgen",
+    "atistructures": "Worldgen",
+    "Biolith": "Worldgen",
+    "ChoiceTheorem's Overhauled Village": "Worldgen",
+    "Civillis": "Worldgen",
+    "Epic Structures: Dungeons": "Worldgen",
+    "Epic Structures: Igloo": "Worldgen",
+    "Epic Structures: Witch Huts": "Worldgen",
+    "Explorify": "Worldgen",
+    "MoogsEndStructures": "Worldgen",
+    "MoogsVoyagerStructures": "Worldgen",
+    "No Man's Land": "Worldgen",
+    "SparseStructures": "Worldgen",
+    "Terralith": "Worldgen",
+    "Terralith ReStoned": "Worldgen",
+    "Towns and Towers": "Worldgen",
+    "Vista": "Worldgen",
+    "YUNG's Better Desert Temples": "Worldgen",
+    "YUNG's Better Jungle Temples": "Worldgen",
+    "YUNG's Better Nether Fortresses": "Worldgen",
+    "YUNG's Better Ocean Monuments": "Worldgen",
+    "YUNG's Better Strongholds": "Worldgen",
+
+    # --- Performance & Optimization ---
+    "Alternate Current": "Performance",
+    "BadOptimizations": "Performance",
+    "Clumps": "Performance",
+    "Concurrent Chunk Management Engine": "Performance",
+    "Fast Paintings": "Performance",
+    "Fast Workbench": "Performance",
+    "Ferrite Core": "Performance",
+    "Gpu memory leak fix": "Performance",
+    "ImmediatelyFast": "Performance",
+    "Let Me Despawn": "Performance",
+    "Lithium": "Performance",
+    "ModernFix": "Performance",
+    "More Culling": "Performance",
+    "Noisium": "Performance",
+    "Remove Reloading Screen": "Performance",
+    "Smoothchunk mod": "Performance",
+
+    # --- Graphics & Rendering ---
+    "Entity Model Features": "Graphics",
+    "Entity Texture Features": "Graphics",
+    "Iris": "Graphics",
+    "Reese's Sodium Options": "Graphics",
+    "Sodium": "Graphics",
+    "Sodium Dynamic Lights": "Graphics",
+
+    # --- Food & Farming ---
+    "Farmer's Delight": "Food & Farming",
+    "Kaleidoscope Cookery": "Food & Farming",
+    "KaleidoscopeCookery:Automation": "Food & Farming",
+    "Ponder for KaleidoscopeCookery": "Food & Farming",
+    "Spice of Life: Carrot Edition": "Food & Farming",
+
+    # --- Let's Do series ---
+    "[Let's Do Addon] Compat": "Let's Do",
+    "[Let's Do] Beachparty": "Let's Do",
+    "[Let's Do] BloomingNature": "Let's Do",
+    "[Let's Do] Brewery": "Let's Do",
+    "[Let's Do] Candlelight": "Let's Do",
+    "[Let's Do] Farm & Charm": "Let's Do",
+    "[Let's Do] Furniture": "Let's Do",
+    "[Let's Do] HerbalBrews": "Let's Do",
+    "[Let's Do] Meadow": "Let's Do",
+    "[Let's Do] Vinery": "Let's Do",
+    "[Let's Do] Wilder Nature": "Let's Do",
+    "emi-letsdo-compat": "Let's Do",
+
+    # --- Storage ---
+    "Sophisticated Backpacks": "Storage",
+    "Sophisticated Backpacks Create Integration": "Storage",
+    "Sophisticated Storage": "Storage",
+    "Sophisticated Storage Create Integration": "Storage",
+    "Sophisticated Storage In Motion": "Storage",
+    "SophisticatedSorter": "Storage",
+    "Storage Labels": "Storage",
+
+    # --- Technology ---
+    "AE2WTLib": "Technology",
+    "Applied Energistics 2": "Technology",
+
+    # --- Gameplay ---
+    "Accessories": "Gameplay",
+    "All The Leaks": "Gameplay",
+    "Aquaculture 2": "Gameplay",
+    "Artifacts": "Gameplay",
+    "Block Runner": "Gameplay",
+    "Bountiful": "Gameplay",
+    "Camping": "Gameplay",
+    "Comforts": "Gameplay",
+    "Ecologics": "Gameplay",
+    "End Remastered": "Gameplay",
+    "Envelope": "Gameplay",
+    "Etched": "Gameplay",
+    "Friends&Foes": "Gameplay",
+    "Grappling Hook": "Gameplay",
+    "Hang Glider": "Gameplay",
+    "Hearthstone Mod": "Gameplay",
+    "Immersive Melodies": "Gameplay",
+    "Lootr": "Gameplay",
+    "Magnum Torch": "Gameplay",
+    "MmmMmmMmmMmm": "Gameplay",
+    "Naturalist": "Gameplay",
+    "Quark": "Gameplay",
+    "Quark Oddities": "Gameplay",
+    "Relics": "Gameplay",
+    "Supplementaries": "Gameplay",
+    "Supplementaries Squared": "Gameplay",
+
+    # --- QoL & UI ---
+    "Almanac": "QoL",
+    "AppleSkin": "QoL",
+    "Armor Statues": "QoL",
+    "Better Advancements": "QoL",
+    "Better Mods Button": "QoL",
+    "Better Third Person": "QoL",
+    "BetterF3": "QoL",
+    "Carry On": "QoL",
+    "Chat Heads": "QoL",
+    "Configured": "QoL",
+    "Controlling": "QoL",
+    "CosmeticArmorReworked": "QoL",
+    "Cut Through": "QoL",
+    "Dark Mode Everywhere": "QoL",
+    "EMI": "QoL",
+    "Easy Anvils": "QoL",
+    "Easy Magic": "QoL",
+    "EnchantmentDescriptions": "QoL",
+    "FancyMenu": "QoL",
+    "Freecam": "QoL",
+    "Jade": "QoL",
+    "Leaves Be Gone": "QoL",
+    "Map Atlases": "QoL",
+    "Morph-o-Tool": "QoL",
+    "Mouse Tweaks": "QoL",
+    "Nature's Compass": "QoL",
+    "NetherPortalFix": "QoL",
+    "Polymorph": "QoL",
+    "Straw Statues": "QoL",
+    "Stylish Effects": "QoL",
+    "Toast Control": "QoL",
+    "TrashSlot": "QoL",
+    "What Are They Up To": "QoL",
+    "Xaero's Minimap": "QoL",
+    "Xaero's World Map": "QoL",
+
+    # --- Utility & Server ---
+    "AlmostUnified": "Utility",
+    "AttributeFix": "Utility",
+    "Chunky": "Utility",
+    "ChunkyBorder": "Utility",
+    "Connectivity Mod": "Utility",
+    "KubeJS": "Utility",
+    "KubeJS Create": "Utility",
+    "Log Begone": "Utility",
+    "LootJS": "Utility",
+    "Neruina": "Utility",
+    "No Chat Reports": "Utility",
+    "Observable": "Utility",
+    "OpacBonusClaims": "Utility",
+    "Open Parties and Claims": "Utility",
+    "PacketFixer": "Utility",
+    "Simple Voice Chat": "Utility",
+    "Too Fast": "Utility",
+    "Yeetus Experimentus": "Utility",
+    "recipeessentials mod": "Utility",
+    "spark": "Utility",
+
+    # --- Library & API ---
+    "Architectury": "Library",
+    "Balm": "Library",
+    "Blueprint": "Library",
+    "Bookshelf": "Library",
+    "Cloth Config v15 API": "Library",
+    "Configurable": "Library",
+    "CoroUtil": "Library",
+    "Cristel Lib": "Library",
+    "Cupboard mod": "Library",
+    "Curios API": "Library",
+    "DragonLib": "Library",
+    "Fusion": "Library",
+    "Fzzy Config": "Library",
+    "GeckoLib 4": "Library",
+    "GuideME": "Library",
+    "JinxedLib": "Library",
+    "Kambrik": "Library",
+    "Konkrete": "Library",
+    "Kotlin for Forge": "Library",
+    "Lithostitched": "Library",
+    "Load My F***ing Tags": "Library",
+    "LowDragLib2": "Library",
+    "ManyIdeas Core": "Library",
+    "Melody": "Library",
+    "MidnightLib": "Library",
+    "Moog's Structure Lib": "Library",
+    "Moonlight Lib": "Library",
+    "OctoLib": "Library",
+    "Placebo": "Library",
+    "PrickleMC": "Library",
+    "Puzzles Lib": "Library",
+    "Recipes Library": "Library",
+    "Resourceful Lib": "Library",
+    "Rhino": "Library",
+    "Searchables": "Library",
+    "Sodium Options API": "Library",
+    "Sophisticated Core": "Library",
+    "Structure Essentials mod": "Library",
+    "SuperMartijn642's Config Library": "Library",
+    "SuperMartijn642's Core Lib": "Library",
+    "YUNG's API": "Library",
+    "Zeta": "Library",
+    "oωo": "Library",
+}
+
+
+def get_category(mod_name: str) -> str:
+    """Look up category for a mod name, returning empty string if unknown."""
+    return CATEGORIES.get(mod_name, "")
 
 
 # ---------------------------------------------------------------------------
@@ -114,6 +427,18 @@ def extract_name_and_url(cell_value: str) -> tuple[str, str]:
 
 
 # ---------------------------------------------------------------------------
+# Column migration helpers
+# ---------------------------------------------------------------------------
+
+def _drop_column(header: list[str], rows: list[list[str]], col_name: str) -> list[list[str]]:
+    """Remove a column from rows if it exists in the header."""
+    if col_name not in header:
+        return rows
+    idx = header.index(col_name)
+    return [row[:idx] + row[idx + 1:] for row in rows]
+
+
+# ---------------------------------------------------------------------------
 # Core sync logic
 # ---------------------------------------------------------------------------
 
@@ -135,8 +460,7 @@ def sync(spreadsheet, export_data: dict[str, dict]):
             mods_rows.append([
                 name_cell,
                 info["version"],
-                "",  # Add On For
-                "",  # Category
+                get_category(info["name"]),
                 "Modpack Sync",
                 "",  # Notes
             ])
@@ -175,13 +499,10 @@ def sync(spreadsheet, export_data: dict[str, dict]):
     removed_header = removed_all[0] if removed_all else []
     removed_rows = removed_all[1:] if len(removed_all) > 1 else []
 
-    # Migrate from old layout: drop "Size (MB)" column if present
-    if "Size (MB)" in mods_header:
-        size_idx = mods_header.index("Size (MB)")
-        mods_rows = [row[:size_idx] + row[size_idx + 1:] for row in mods_rows]
-    if "Size (MB)" in removed_header:
-        size_idx = removed_header.index("Size (MB)")
-        removed_rows = [row[:size_idx] + row[size_idx + 1:] for row in removed_rows]
+    # Migrate from old layouts: drop removed columns if present
+    for col_name in ("Size (MB)", "Add On For"):
+        mods_rows = _drop_column(mods_header, mods_rows, col_name)
+        removed_rows = _drop_column(removed_header, removed_rows, col_name)
 
     # Build name → row index mapping for the Mods tab
     name_to_indices: dict[str, list[int]] = {}
@@ -258,8 +579,7 @@ def sync(spreadsheet, export_data: dict[str, dict]):
         row = [
             name_cell,
             info["version"],
-            "",  # Add On For
-            "",  # Category
+            get_category(info["name"]),
             "Modpack Sync",
             "",  # Notes
         ]

@@ -85,11 +85,16 @@ The yolks `java_21` image used by Pterodactyl/Pelican has everything `start.sh` 
 
 ## Modlist sync
 
-`sheets-sync/modlist.py` keeps a Google Sheet in sync with the mods directory. Run it with:
+`sheets-sync/modlist.py` keeps a Google Sheet in sync with `prism-export.json`. Run it with:
 
 ```sh
-cd sheets-sync
-.venv/bin/python modlist.py
+sheets-sync/venv/bin/python sheets-sync/modlist.py
 ```
 
-It reads `config.json` for the mods directory path, spreadsheet ID, and service account credentials. On each run it diffs the directory against the sheet, adds new mods, moves removed mods to a "Removed" tab, updates file sizes, and preserves any user edits (notes, categories, etc.).
+It reads `prism-export.json` (resolved relative to the script, same as `update-packwiz.sh`) and `config.json` for the spreadsheet ID and service account credentials. On each run it diffs the export against the sheet, adds new mods with names/versions/URLs, moves removed mods to a "Removed" tab, updates versions, and preserves any user edits (categories, notes, etc.).
+
+Use `--fresh` to wipe the sheet and rebuild from scratch:
+
+```sh
+sheets-sync/venv/bin/python sheets-sync/modlist.py --fresh
+```
