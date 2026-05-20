@@ -2,7 +2,23 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "3a8b18712267a17a9f48fdd83b98236d45d8032d476c7a3e4396f8ca541f506e"
+hash = "84f082bddaf0631cf8b15f1d233989ea66673f09eff50e8a979bcf824478c5a4"
+
+[[files]]
+file = "config/xaero/minimap/client.cfg"
+hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+
+[[files]]
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "4b65b5dff30c46ab4f6ef40b0e530e8b1d4a5e55c78405cd0f93ee84f951a8ff"
+
+[[files]]
+file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
+hash = "b8ddf54611a9ab8c53177fc0d062321e9e731192b65b9e50d0fcb38a86a91696"
+
+[[files]]
+file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
 
 [[files]]
 file = "icon.png"
@@ -964,11 +980,6 @@ hash = "893811cbcfdc031628e1bcf86f8bbbebae11e87bc0361e5013e86e81184d9e00"
 metafile = true
 
 [[files]]
-file = "mods/moreculling.pw.toml"
-hash = "5a6923fd7118188866c82daf7f2eb7f4f9b07ecca1e4461f8b91d5f6cf5a08d0"
-metafile = true
-
-[[files]]
 file = "mods/morph-o-tool.pw.toml"
 hash = "a683bf43c525538d18a6be23cb8a263a09c4933ccadee721dc354d0de567c93b"
 metafile = true
@@ -1180,7 +1191,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "f3ca38911d54ed613c5bb41a8d726135f7e438b148ce8991c7be12812e10916d"
+hash = "f3c75c6d415e4d68307d972ed30ced99ba05968c7ff85301154a60fc42eeed95"
 metafile = true
 
 [[files]]
