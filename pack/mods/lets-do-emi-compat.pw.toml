@@ -1,6 +1,6 @@
 name = "[Let's Do Addon] EMI Compat"
 filename = "emi-letsdo-compat-2.0.1+1.21.1+neoforge.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

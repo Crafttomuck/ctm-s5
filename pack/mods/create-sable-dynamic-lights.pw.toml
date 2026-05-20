@@ -1,6 +1,6 @@
 name = "Create Sable Dynamic Lights"
 filename = "create-dyn-light-2.3.1-sodium-sable.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
