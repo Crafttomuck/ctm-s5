@@ -694,12 +694,6 @@
         "version": "7.1"
     },
     {
-        "filename": "envelope-neoforge-1.21.1-0.6.0.jar",
-        "name": "Envelope",
-        "url": "https://www.curseforge.com/projects/1281170",
-        "version": "0.6.0"
-    },
-    {
         "filename": "Epic Dungeons 1.2.0 (1.21+).jar",
         "name": "Epic Structures: Dungeons",
         "url": "https://www.curseforge.com/projects/1501318",
@@ -1484,18 +1478,6 @@
         "name": "Unusual Furniture",
         "url": "https://www.curseforge.com/projects/1278034",
         "version": "1.0.0"
-    },
-    {
-        "filename": "vista-neoforge-1.21.1-4.4.2.jar",
-        "name": "Vista",
-        "url": "https://www.curseforge.com/projects/1368607",
-        "version": "1.21.1-4.4.2"
-    },
-    {
-        "filename": "VistaAeronauricsFix-1.0.1.jar",
-        "name": "Vista Aeronautics Fix",
-        "url": "https://www.curseforge.com/projects/1521989",
-        "version": "1.0.1"
     },
     {
         "filename": "watut-neoforge-1.21.0-1.2.7.jar",

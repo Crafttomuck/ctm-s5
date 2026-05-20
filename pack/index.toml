@@ -569,11 +569,6 @@ hash = "298f2a99e309853181e71938c2358c4b2c7c6c19137dcf6bcefb736d43ab6f65"
 metafile = true
 
 [[files]]
-file = "mods/envelope.pw.toml"
-hash = "9400775059f755d82e0756cfff26bb64a274e251a5beb282a0251b32c5524331"
-metafile = true
-
-[[files]]
 file = "mods/epic-structures-dungeons.pw.toml"
 hash = "4b1393961f1c2c3ebcd719cd825a0d652fd9269fc35e21ababdf25b48f96ff67"
 metafile = true
@@ -1306,16 +1301,6 @@ metafile = true
 [[files]]
 file = "mods/unusual-furniture.pw.toml"
 hash = "22c18b47dd1bbe8b81f8c33c11c839842a4b5ba9cbe1e482e21f18e87df4995c"
-metafile = true
-
-[[files]]
-file = "mods/vista-aeronautics-fix.pw.toml"
-hash = "e6984ff406125d06bd2b27acbc7c9ed3f524e2110649963461fa5a18ea39ac96"
-metafile = true
-
-[[files]]
-file = "mods/vista.pw.toml"
-hash = "6d0b49ee6df30a41dcdcb1902b9aef15c5fe85d8eb3eb7d9ed53a2d97f1be070"
 metafile = true
 
 [[files]]
