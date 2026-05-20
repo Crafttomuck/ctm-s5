@@ -6,9 +6,31 @@ A Minecraft modpack for CraftToMuck Season 5. Managed with [packwiz](https://pac
 
 - `pack/` — the packwiz pack (`pack.toml`, `index.toml`, `mods/`, etc.)
 - `pack/changelog.md` — per-release notes
+- `prism-export.json` — mod list with names, versions, and CurseForge URLs (source of truth for sheets sync)
+- `build.sh` — local build script for client and server zips
 - `start.sh` — server bootstrap/launcher; pins the modpack and NeoForge versions, downloads on first run or version bump, then `exec`s NeoForge
 - `sheets-sync/` — Google Sheets sync tooling (`modlist.py`, `config.json`, etc.)
-- `.github/workflows/release.yml` — CI that builds client and server zips on every push to `main` and attaches them to a GitHub release tagged `v<version>`
+- `.github/workflows/release.yml` — CI that builds client (and optionally server) zips on every push to `main`
+
+## Local builds
+
+`build.sh` builds both client and server zips locally:
+
+```sh
+./build.sh              # build both
+./build.sh --client     # client only
+./build.sh --server     # server only
+```
+
+The client zip is built via `packwiz curseforge export`. The server zip copies jars from your local Prism Launcher instance (skipping client-only mods) and bundles configs.
+
+Server builds require a `config.local.json` in the repo root (gitignored):
+
+```json
+{
+  "local_prism_path": "/path/to/PrismLauncher/instances/CTMS5/minecraft"
+}
+```
 
 ## Release workflow
 
@@ -25,6 +47,10 @@ packwiz remove <slug>            # remove a mod
 
 `packwiz` rewrites `pack/mods/*.pw.toml` and refreshes the hash in `pack/index.toml` and `pack/pack.toml`.
 
+### Client vs server sides
+
+Each `.pw.toml` has a `side` field (`"both"`, `"client"`, or `"server"`) that controls which zip includes that mod. Client-only mods (shaders, UI, rendering optimizations) should be marked `side = "client"` so they don't end up on the server.
+
 ### Bump version, commit, tag
 
 Bump `version = "..."` in `pack/pack.toml`, then add an entry to `pack/changelog.md` describing what changed. Commit and tag:
@@ -39,16 +65,9 @@ git push origin main --tags
 The push to `main` triggers `.github/workflows/release.yml`, which:
 
 - Reads the version from `pack/pack.toml`
-- Runs `packwiz curseforge export` once per side (`-s client`, `-s server`)
-- For the server zip, downloads every mod jar via `moddl` into `mods/` and flattens packwiz's `overrides/` into the root
-- Creates (or updates) the GitHub release `v<version>` with both zips attached
-
-Final server zip layout:
-
-```
-mods/<jar files>
-config/, defaultconfigs/, kubejs/, ...   # flattened from overrides/
-```
+- Builds a client zip via `packwiz curseforge export -s client`
+- If `CURSEFORGE_API_KEY` is set in repo secrets, also builds a server zip by downloading jars via `moddl`
+- Creates (or updates) the GitHub release `v<version>` with the zips attached
 
 ### Update the server
 
