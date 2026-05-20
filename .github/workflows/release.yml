@@ -38,6 +38,7 @@ jobs:
         run: packwiz curseforge export -s client -o "../${{ steps.pack.outputs.client_zip }}"
 
       - name: Build server zip
+        if: ${{ secrets.CURSEFORGE_API_KEY != '' }}
         env:
           CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
         run: |
@@ -61,6 +62,7 @@ jobs:
           path: |
             ${{ steps.pack.outputs.client_zip }}
             ${{ steps.pack.outputs.server_zip }}
+          if-no-files-found: ignore
 
       - name: Create or update release
         env:
@@ -69,10 +71,16 @@ jobs:
           tag="v${{ steps.pack.outputs.version }}"
           client="${{ steps.pack.outputs.client_zip }}"
           server="${{ steps.pack.outputs.server_zip }}"
+
+          assets=("$client")
+          if [ -f "$server" ]; then
+            assets+=("$server")
+          fi
+
           if gh release view "$tag" >/dev/null 2>&1; then
-            gh release upload "$tag" "$client" "$server" --clobber
+            gh release upload "$tag" "${assets[@]}" --clobber
           else
-            gh release create "$tag" "$client" "$server" \
+            gh release create "$tag" "${assets[@]}" \
               --target "$GITHUB_SHA" \
               --generate-notes \
               --title "$tag"

@@ -1,3 +1,4 @@
 sheets-sync/service-account.json
 sheets-sync/venv/
 __pycache__/
+config.local.json
