@@ -38,7 +38,7 @@ jobs:
         run: packwiz curseforge export -s client -o "../${{ steps.pack.outputs.client_zip }}"
 
       - name: Build server zip
-        if: ${{ secrets.CURSEFORGE_API_KEY != '' }}
+        if: env.CURSEFORGE_API_KEY != ''
         env:
           CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
         run: |
