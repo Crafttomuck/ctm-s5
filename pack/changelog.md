@@ -24,6 +24,20 @@
 - Terralith and Terralith ReStoned
 - Lithostitched
 - Dark Mode Everywhere (crash on button click, no fix for 1.21.1)
+- Angel Islands
+
+### Updated
+- Moonlight Lib 3.0.10 → 3.0.13 (fixes server crash)
+- Supplementaries 3.6.4 → 3.6.5
+- Cristel Lib 3.0.3 → 3.1.4
+- Puzzles Lib 21.1.39 → 21.1.44
+- Sophisticated Core, Backpacks, Storage, Storage in Motion
+- Almost Unified 1.4.1 → 1.4.2
+- C2ME 0.92 → 0.93
+- LDLib 2.2.10 → 2.2.11
+- Relics 0.12.6 → 0.12.7
+- Create Rail Grinding 1.0.0 → 1.1.2
+- Moog's End Structures, Moog's Voyager Structures
 
 ## 0.0.3
 

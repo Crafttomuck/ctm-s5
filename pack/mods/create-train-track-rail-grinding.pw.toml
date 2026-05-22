@@ -1,13 +1,13 @@
 name = "Create: Train Track Rail Grinding"
-filename = "createrailgrinding-1.0.0.jar"
+filename = "createrailgrinding-1.1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "95aa31eb1f06afc43177a24a05f89b12e2803eb5"
+hash = "3e16d573abf80086b79f3c183ff4ec84bd4c80fb"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8102803
+file-id = 8121903
 project-id = 1545733
