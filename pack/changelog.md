@@ -29,7 +29,6 @@
 ### Updated
 - Moonlight Lib 3.0.10 → 3.0.13 (fixes server crash)
 - Supplementaries 3.6.4 → 3.6.5
-- Cristel Lib 3.0.3 → 3.1.4
 - Puzzles Lib 21.1.39 → 21.1.44
 - Sophisticated Core, Backpacks, Storage, Storage in Motion
 - Almost Unified 1.4.1 → 1.4.2
