@@ -77,11 +77,6 @@ hash = "bf68b426ab3361b1257ff1c3a8c0355475807d5f18332eebaca7754bcef945b3"
 metafile = true
 
 [[files]]
-file = "mods/angel-islands.pw.toml"
-hash = "94238c0d603035ea68f8c15f952167df04f4f207681fb92c6b501f7f93895483"
-metafile = true
-
-[[files]]
 file = "mods/another-furniture.pw.toml"
 hash = "8e3c94d901d27042e160a6f618f1574c5e644defe10d6fb9ad486c9f2dbfce5d"
 metafile = true
