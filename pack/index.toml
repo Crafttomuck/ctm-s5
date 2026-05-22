@@ -2,7 +2,15 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "84f082bddaf0631cf8b15f1d233989ea66673f09eff50e8a979bcf824478c5a4"
+hash = "030628f389af6c75e5748f10c103f65a1e657f302564106ee26c4042810b5f0f"
+
+[[files]]
+file = "config/quark-common.toml"
+hash = "8dcbeb29f8eeceabcb502226386bf49c64b220e8a169281c720374b66394a536"
+
+[[files]]
+file = "config/vanillabackport-common.toml"
+hash = "2373e55b18ad93b33b5d6588b814ec0e9744ae44682d2e0bc3a75779bd538c59"
 
 [[files]]
 file = "config/xaero/minimap/client.cfg"
@@ -19,6 +27,10 @@ hash = "b8ddf54611a9ab8c53177fc0d062321e9e731192b65b9e50d0fcb38a86a91696"
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
 hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
+
+[[files]]
+file = "configureddefaults/options.txt"
+hash = "cf11bdde2d57c13567943b42b1730bc50edf9da25699e1b3a19798c2027f92eb"
 
 [[files]]
 file = "icon.png"
@@ -220,11 +232,6 @@ hash = "a87e9f44862e34f96a5d37de5162c9ad380d7386272f7946d1b5baa3b7975e45"
 metafile = true
 
 [[files]]
-file = "mods/choicetheorems-overhauled-village.pw.toml"
-hash = "000217304bbb5971cb9dde9081fcb5ea92cc7edcae83321effdcd92b36e2f490"
-metafile = true
-
-[[files]]
 file = "mods/chunky-border-forge.pw.toml"
 hash = "997d47326220f61abcf0d122145a9b38399d4bb152aeaa1d8e98783bd970e400"
 metafile = true
@@ -232,11 +239,6 @@ metafile = true
 [[files]]
 file = "mods/chunky-pregenerator-forge.pw.toml"
 hash = "7be63eaec6a70605f2f21cc30f0889fb27978c2e2fe62ee4584210502289e77d"
-metafile = true
-
-[[files]]
-file = "mods/civillis.pw.toml"
-hash = "17776b2722fc27a6bbfe28fd5bbe4d502e53f56b9e56e245457e6f5362e1a801"
 metafile = true
 
 [[files]]
@@ -262,6 +264,11 @@ metafile = true
 [[files]]
 file = "mods/configurable.pw.toml"
 hash = "f63505f8b03d21eaa2d91259b2f42b5ba6e2c6136d0dd463739820109f89536f"
+metafile = true
+
+[[files]]
+file = "mods/configured-defaults.pw.toml"
+hash = "48e86845338e9e6127ff6bb6e3c34563717d7a883719b82824720ff1c5948464"
 metafile = true
 
 [[files]]
@@ -342,6 +349,11 @@ metafile = true
 [[files]]
 file = "mods/create-copper-zinc.pw.toml"
 hash = "2a14549d6eddbecbc636da718fde13097e494abedb4116704287854d3337fee6"
+metafile = true
+
+[[files]]
+file = "mods/create-curios-jetpack.pw.toml"
+hash = "4d4804b4b09a1e8df068f465cca9b07b818ee6d6c2c061269e42b2cea9749be0"
 metafile = true
 
 [[files]]
@@ -500,6 +512,11 @@ hash = "7e266aeb4533b67f4fbdd30a6654cfa6439843b9a973d70bdc0443c219c0b54e"
 metafile = true
 
 [[files]]
+file = "mods/croptopia.pw.toml"
+hash = "f4a74eca4d76cbe003e7fd3832ae57a390177813dfb01f30944a2feed97d6bcf"
+metafile = true
+
+[[files]]
 file = "mods/cupboard.pw.toml"
 hash = "a079bf8579ded1a9eeba488f91bdf632a41ac2c35a0cccd8c3aa3cc9ddb7250d"
 metafile = true
@@ -512,11 +529,6 @@ metafile = true
 [[files]]
 file = "mods/cut-through.pw.toml"
 hash = "1dc3ed614d1be444f0ed687ab40168437cef77f25a9ebfbdd2ac250de6da3d87"
-metafile = true
-
-[[files]]
-file = "mods/dark-mode-everywhere.pw.toml"
-hash = "8330c5c37681caaf49f537ef3a40c0155af4e311f6bdb00e57abf39471fb8e65"
 metafile = true
 
 [[files]]
@@ -537,6 +549,11 @@ metafile = true
 [[files]]
 file = "mods/dramatic-doors.pw.toml"
 hash = "b8a573fb90e6416ad88c42041e2f148121749f3f2548b8b67c5d1c90fa608f08"
+metafile = true
+
+[[files]]
+file = "mods/drippy-loading-screen.pw.toml"
+hash = "ed31b4b816703ac3f1f00e52be969bd1fb7f7f54326bbb2ca863e85345a1eabe"
 metafile = true
 
 [[files]]
@@ -590,6 +607,11 @@ hash = "cc68235aff068c4a38af04e4091516720bb731cbb3789b1f6736f096523b336f"
 metafile = true
 
 [[files]]
+file = "mods/epherolib.pw.toml"
+hash = "bb3972a97a3915f202ce571fc7b943b2055119a0d70404424505e4dbc811958c"
+metafile = true
+
+[[files]]
 file = "mods/epic-structures-dungeons.pw.toml"
 hash = "4b1393961f1c2c3ebcd719cd825a0d652fd9269fc35e21ababdf25b48f96ff67"
 metafile = true
@@ -605,8 +627,23 @@ hash = "edc56ef01225ad42b23c03f75446b88973cc1269341d77ed0002fdae70dbdd4e"
 metafile = true
 
 [[files]]
+file = "mods/epic-terrain-compatible.pw.toml"
+hash = "70b53ed3da0717b7897ae2897f3833470dabe284f488ad418b87a92ed0f5ef2a"
+metafile = true
+
+[[files]]
+file = "mods/epic-villages.pw.toml"
+hash = "9cb00bfa6aa999c61c9846066c8c4cfd746d24f2b05feceac4a729fbbd243c0e"
+metafile = true
+
+[[files]]
 file = "mods/etched.pw.toml"
 hash = "f2be475fad96949ff8e26e8a03046b1732935b1dbd9b8824e505e7413ec08622"
+metafile = true
+
+[[files]]
+file = "mods/every-compat.pw.toml"
+hash = "cc8780c9e3d51b70f0919f6367fba567f61046a8ec765504f2e5d912fe962204"
 metafile = true
 
 [[files]]
@@ -617,6 +654,11 @@ metafile = true
 [[files]]
 file = "mods/fancymenu.pw.toml"
 hash = "b3c391fd66fe0f63c05f9de35c1e6beabaa84e7ba0b4761c1595226fcfb6b5f5"
+metafile = true
+
+[[files]]
+file = "mods/farmers-croptopia.pw.toml"
+hash = "d4acae88d2cdf5540b82cba21f2c992d26a9d0f31ceefde0ec35cc0c4be55f4f"
 metafile = true
 
 [[files]]
@@ -785,6 +827,11 @@ hash = "20ac722fe5e336e36a5f47bacf353138e76ae0f923642009aef72bd87d0022c4"
 metafile = true
 
 [[files]]
+file = "mods/lake-feature-fix.pw.toml"
+hash = "4e3a02daedf10f15497ad247981a07c204b2fc316aef9f25f57c7f6475e84027"
+metafile = true
+
+[[files]]
 file = "mods/ldlib.pw.toml"
 hash = "147acf98860dfe3c2e7acc6864fde613eb7239c38fef075ca9044cd2c821a7cb"
 metafile = true
@@ -867,11 +914,6 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "3b41e84ca0e5bd93f05eddcdff3f47b38e8bb9863b9bbb4bf05991098487a8a5"
-metafile = true
-
-[[files]]
-file = "mods/lithostitched.pw.toml"
-hash = "c4f815a21d72a50e59af2644e94246111042c4f820f9b9f7557120fbe3a4121f"
 metafile = true
 
 [[files]]
@@ -1060,6 +1102,11 @@ hash = "201e0be56d2d9430843688b4a04dea207732b6d60f8001fb9e6396d48aea287f"
 metafile = true
 
 [[files]]
+file = "mods/platform.pw.toml"
+hash = "cf4f9fdb9d7cf582d1068fae6ca9bf7fe6d3f0f1dbb031627f339f73477d325c"
+metafile = true
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 hash = "8b725f1822c0feab9e51bef600f2ee6f4c26efbb55aa3ee9073a027f1f134202"
 metafile = true
@@ -1245,6 +1292,11 @@ hash = "e520ad446364dff7dd50896108a96140f3f5598b72003dade5b17308fa9ef2a9"
 metafile = true
 
 [[files]]
+file = "mods/stone-zone.pw.toml"
+hash = "ce5109dd2fb1d4eec2b8c6dd3a0624bfa49a4e2238277a9f2d2c723ce40fd85d"
+metafile = true
+
+[[files]]
 file = "mods/straw-statues.pw.toml"
 hash = "7b0fae7a23721ebea12ea8bae66caaf083c43100ac79aa56269132d6b36fc819"
 metafile = true
@@ -1285,16 +1337,6 @@ hash = "16a7c7af9f6af4edff3cffb892b60f50ab0f2387917c934403758a0e06912437"
 metafile = true
 
 [[files]]
-file = "mods/terralith-restoned.pw.toml"
-hash = "6453afd2db04ac742b952dc96bef53610fa89df1c93cf9c3fe926d44d461c8e0"
-metafile = true
-
-[[files]]
-file = "mods/terralith.pw.toml"
-hash = "0e02e93b9468dca005f7fea385e92612e38bb6807f4dcd64ce7a4b22fac78581"
-metafile = true
-
-[[files]]
 file = "mods/toast-control.pw.toml"
 hash = "59dba91bb98d9ec0b16dfd33cb975635a5b33a3c816b6c6a8f56d0416396b5e1"
 metafile = true
@@ -1317,6 +1359,21 @@ metafile = true
 [[files]]
 file = "mods/unusual-furniture.pw.toml"
 hash = "22c18b47dd1bbe8b81f8c33c11c839842a4b5ba9cbe1e482e21f18e87df4995c"
+metafile = true
+
+[[files]]
+file = "mods/vanillabackport.pw.toml"
+hash = "9270ec85892fcda4278323af9f9e4cf8e847ee9295c108eb21240f7b66ff1005"
+metafile = true
+
+[[files]]
+file = "mods/vista-aeronautics-fix.pw.toml"
+hash = "e6984ff406125d06bd2b27acbc7c9ed3f524e2110649963461fa5a18ea39ac96"
+metafile = true
+
+[[files]]
+file = "mods/vista.pw.toml"
+hash = "60cc83bd820cfe6ce79697f96dae5b1b3da43422a1416931d9ef0e8095c03d42"
 metafile = true
 
 [[files]]
@@ -1381,4 +1438,4 @@ metafile = true
 
 [[files]]
 file = "servers.dat"
-hash = "f0d780b457f8d8bed2f56d2dc0fb587445e8fca432c0b3e0ced9b22c6a494ee0"
+hash = "638ac8942f52e1fdc68fa8ee588487e53d58f1a6e0c438fdc965d5a69731f322"

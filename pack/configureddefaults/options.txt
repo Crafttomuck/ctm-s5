@@ -1,0 +1,2 @@
+key_key.map_atlases.open_minimap:key.keyboard.unknown
+key_key.mute_microphone:key.keyboard.unknown
