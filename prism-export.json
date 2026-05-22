@@ -54,12 +54,6 @@
         "version": "1.21-2.0.15"
     },
     {
-        "filename": "angel-islands-2.0.3.jar",
-        "name": "Angel Islands",
-        "url": "https://www.curseforge.com/projects/1409893",
-        "version": "2.0.3"
-    },
-    {
         "filename": "another_furniture-neoforge-4.0.2.jar",
         "name": "Another Furniture",
         "url": "https://www.curseforge.com/projects/610492",
@@ -216,12 +210,6 @@
         "version": "0.15.1"
     },
     {
-        "filename": "[Neoforge]ctov-3.6.3.jar",
-        "name": "ChoiceTheorem's Overhauled Village",
-        "url": "https://www.curseforge.com/projects/623908",
-        "version": "3.6.3"
-    },
-    {
         "filename": "Chunky-NeoForge-1.4.23.jar",
         "name": "Chunky",
         "url": "https://www.curseforge.com/projects/485681",
@@ -232,12 +220,6 @@
         "name": "ChunkyBorder",
         "url": "https://www.curseforge.com/projects/974992",
         "version": "1.2.18"
-    },
-    {
-        "filename": "civillis-neoforge-1.4.0-release+mc1.21.1.jar",
-        "name": "Civillis",
-        "url": "https://www.curseforge.com/projects/1460803",
-        "version": "1.4.0-release"
     },
     {
         "filename": "clayworks-1.21.1-4.0.3.jar",
@@ -280,6 +262,12 @@
         "name": "Configured",
         "url": "https://www.curseforge.com/projects/457570",
         "version": "2.6.3"
+    },
+    {
+        "filename": "ConfiguredDefaults-v21.1.3-1.21.1-NeoForge.jar",
+        "name": "Configured Defaults",
+        "url": "https://www.curseforge.com/projects/930131",
+        "version": "21.1.3"
     },
     {
         "filename": "connectivity-1.21.1-7.6.jar",
@@ -570,6 +558,12 @@
         "version": "3.0.3"
     },
     {
+        "filename": "croptopia-neoforge-1.21.1-4.2.4.jar",
+        "name": "Croptopia",
+        "url": "https://www.curseforge.com/projects/415438",
+        "version": "4.2.4"
+    },
+    {
         "filename": "cupboard-1.21-3.5.jar",
         "name": "Cupboard mod",
         "url": "https://www.curseforge.com/projects/326652",
@@ -586,12 +580,6 @@
         "name": "Cut Through",
         "url": "https://www.curseforge.com/projects/969423",
         "version": "21.1.0"
-    },
-    {
-        "filename": "darkmodeeverywhere-1.21-1.3.5.jar",
-        "name": "Dark Mode Everywhere",
-        "url": "https://www.curseforge.com/projects/574123",
-        "version": "1.21-1.3.5"
     },
     {
         "filename": "DecorativeBlocks-Reborn-neoforge-1.21.1-6.0.2.jar",
@@ -622,6 +610,12 @@
         "name": "Dramatic Doors (NeoQuiFab)",
         "url": "https://www.curseforge.com/projects/380617",
         "version": "1.21.1-3.3.2"
+    },
+    {
+        "filename": "drippyloadingscreen_neoforge_3.1.2_MC_1.21.1.jar",
+        "name": "Drippy Loading Screen",
+        "url": "https://www.curseforge.com/projects/511770",
+        "version": "3.1.2"
     },
     {
         "filename": "drivebywire-0.2.9.jar",
@@ -678,6 +672,12 @@
         "version": "7.1"
     },
     {
+        "filename": "EpheroLib-1.21.1-NEO-FORGE-1.2.0.jar",
+        "name": "EpheroLib",
+        "url": "https://www.curseforge.com/projects/885449",
+        "version": "1.2.0"
+    },
+    {
         "filename": "Epic Dungeons 1.2.0 (1.21+).jar",
         "name": "Epic Structures: Dungeons",
         "url": "https://www.curseforge.com/projects/1501318",
@@ -688,6 +688,12 @@
         "name": "Epic Structures: Igloo",
         "url": "https://www.curseforge.com/projects/1511498",
         "version": "1-v1.0.3"
+    },
+    {
+        "filename": "Epic Villages 1.3.0 (1.21+).jar",
+        "name": "Epic Structures: Villages",
+        "url": "https://www.curseforge.com/projects/1308486",
+        "version": "1.2.0"
     },
     {
         "filename": "Epic Witch Huts v1.3.0 (1.21+).jar",
@@ -702,6 +708,12 @@
         "version": "5.0.0"
     },
     {
+        "filename": "everycomp-1.21-2.11.40-neoforge.jar",
+        "name": "Every Compat",
+        "url": "https://www.curseforge.com/projects/628539",
+        "version": "1.21-2.11.40"
+    },
+    {
         "filename": "Explorify v1.6.5.mod.jar",
         "name": "Explorify",
         "url": "https://www.curseforge.com/projects/698309",
@@ -712,6 +724,12 @@
         "name": "FancyMenu",
         "url": "https://www.curseforge.com/projects/367706",
         "version": "3.9.1"
+    },
+    {
+        "filename": "farmers_croptopia-1.21.1-3.2.2.jar",
+        "name": "Farmer's Croptopia",
+        "url": "https://www.curseforge.com/projects/1132546",
+        "version": "3.2.2"
     },
     {
         "filename": "FarmersDelight-1.21.1-1.3.2.jar",
@@ -924,12 +942,6 @@
         "version": "0.15.3+mc1.21.1"
     },
     {
-        "filename": "lithostitched-1.7.7-neoforge-21.1.jar",
-        "name": "Lithostitched",
-        "url": "https://www.curseforge.com/projects/936015",
-        "version": "1.7.7"
-    },
-    {
         "filename": "lmft-1.1.1+1.21.9-neoforge.jar",
         "name": "Load My F***ing Tags",
         "url": "https://www.curseforge.com/projects/656346",
@@ -1038,16 +1050,16 @@
         "version": "5.27.8+mc1.21.1"
     },
     {
-        "filename": "molten_vents-1.21.1-2.1.1.jar",
-        "name": "Molten Vents",
-        "url": "https://www.curseforge.com/projects/824654",
-        "version": "2.1.1"
-    },
-    {
         "filename": "molten_vents_worldgen_heat_recipe.jar",
         "name": "Molten Vents",
         "url": "https://www.curseforge.com/projects/1465241",
         "version": "2.1.2"
+    },
+    {
+        "filename": "molten_vents-1.21.1-2.1.1.jar",
+        "name": "Molten Vents",
+        "url": "https://www.curseforge.com/projects/824654",
+        "version": "2.1.1"
     },
     {
         "filename": "moogs_structures-neoforge-1.21.1-2.0.2.jar",
@@ -1072,12 +1084,6 @@
         "name": "Moonlight Lib",
         "url": "https://www.curseforge.com/projects/499980",
         "version": "1.21.1-3.0.10"
-    },
-    {
-        "filename": "moreculling-neoforge-1.21.1-1.0.8.jar",
-        "name": "More Culling",
-        "url": "https://www.curseforge.com/projects/630104",
-        "version": "1.0.8"
     },
     {
         "filename": "Morph-o-Tool-1.8-39.jar",
@@ -1168,6 +1174,12 @@
         "name": "Placebo",
         "url": "https://www.curseforge.com/projects/283644",
         "version": "9.9.1"
+    },
+    {
+        "filename": "Platform-neoforge-1.21.1-1.3.3.jar",
+        "name": "Platform",
+        "url": "https://www.curseforge.com/projects/997634",
+        "version": "1.3.3"
     },
     {
         "filename": "polymorph-neoforge-1.1.0+1.21.1.jar",
@@ -1296,10 +1308,10 @@
         "version": "4.1"
     },
     {
-        "filename": "sodium-neoforge-0.8.12-alpha.2+mc1.21.1.jar",
+        "filename": "sodium-neoforge-0.6.13+mc1.21.1.jar",
         "name": "Sodium",
         "url": "https://www.curseforge.com/projects/394468",
-        "version": "0.8.12-alpha.2+mc1.21.1"
+        "version": "0.6.13+mc1.21.1"
     },
     {
         "filename": "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
@@ -1368,6 +1380,12 @@
         "version": "1.16.6"
     },
     {
+        "filename": "stonezone-1.21-2.11.16-neoforge.jar",
+        "name": "Stone Zone",
+        "url": "https://www.curseforge.com/projects/1154622",
+        "version": "1.21-2.11.16"
+    },
+    {
         "filename": "labels-1.21-2.0.3-neoforge.jar",
         "name": "Storage Labels",
         "url": "https://www.curseforge.com/projects/688223",
@@ -1428,12 +1446,6 @@
         "version": "2.5.8"
     },
     {
-        "filename": "Terralith_Restoned_v1.3.jar",
-        "name": "Terralith ReStoned",
-        "url": "https://www.curseforge.com/projects/1179585",
-        "version": "1.3"
-    },
-    {
         "filename": "ToastControl-1.21.1-9.0.1.jar",
         "name": "Toast Control",
         "url": "https://www.curseforge.com/projects/271740",
@@ -1462,6 +1474,24 @@
         "name": "Unusual Furniture",
         "url": "https://www.curseforge.com/projects/1278034",
         "version": "1.0.0"
+    },
+    {
+        "filename": "VanillaBackport-neoforge-1.21.1-1.1.7.6.jar",
+        "name": "VanillaBackport",
+        "url": "https://www.curseforge.com/projects/417430",
+        "version": "1.1.7.6"
+    },
+    {
+        "filename": "vista-neoforge-1.21.1-4.4.5.jar",
+        "name": "Vista",
+        "url": "https://www.curseforge.com/projects/1368607",
+        "version": "1.21.1-4.4.5"
+    },
+    {
+        "filename": "VistaAeronauricsFix-1.0.1.jar",
+        "name": "Vista Aeronautics Fix",
+        "url": "https://www.curseforge.com/projects/1521989",
+        "version": "1.0.1"
     },
     {
         "filename": "watut-neoforge-1.21.0-1.2.7.jar",
@@ -1534,6 +1564,12 @@
         "name": "Zeta",
         "url": "https://www.curseforge.com/projects/968868",
         "version": "1.1-40"
+    },
+    {
+        "filename": "ZoomLens-neoforge-1.21.1-v1.1.jar",
+        "name": "ZoomLens",
+        "url": "https://www.curseforge.com/projects/1151584",
+        "version": "1.1"
     },
     {
         "filename": "letsdocompat-neoforge-2.3.1.jar",
