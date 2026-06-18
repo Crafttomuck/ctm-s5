@@ -807,6 +807,11 @@ hash = "edc56ef01225ad42b23c03f75446b88973cc1269341d77ed0002fdae70dbdd4e"
 metafile = true
 
 [[files]]
+file = "mods/epic-terrain-compatible.pw.toml"
+hash = "70b53ed3da0717b7897ae2897f3833470dabe284f488ad418b87a92ed0f5ef2a"
+metafile = true
+
+[[files]]
 file = "mods/epic-villages.pw.toml"
 hash = "9cb00bfa6aa999c61c9846066c8c4cfd746d24f2b05feceac4a729fbbd243c0e"
 metafile = true
@@ -989,6 +994,11 @@ metafile = true
 [[files]]
 file = "mods/labels.pw.toml"
 hash = "20ac722fe5e336e36a5f47bacf353138e76ae0f923642009aef72bd87d0022c4"
+metafile = true
+
+[[files]]
+file = "mods/lake-feature-fix.pw.toml"
+hash = "4e3a02daedf10f15497ad247981a07c204b2fc316aef9f25f57c7f6475e84027"
 metafile = true
 
 [[files]]
