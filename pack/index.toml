@@ -427,6 +427,16 @@ hash = "9cbe070b269ec57ecb6f69c2130e8839b06b5ba462df4bce81a41d087bc74ec8"
 metafile = true
 
 [[files]]
+file = "mods/chunky-border-forge.pw.toml"
+hash = "29c0a3959231e6b0b14474e1303ac9c5af04d55e8face55c4c08d958ad5cc5b0"
+metafile = true
+
+[[files]]
+file = "mods/chunky-pregenerator-forge.pw.toml"
+hash = "6f3b2586044baf55d5b1cb07752c9def847208270480bf9d893c803277493c1f"
+metafile = true
+
+[[files]]
 file = "mods/clayworks.pw.toml"
 hash = "1a5e1f4c0f3681ffe737efabf3efa5212987fcbe62fab840f65badfa70994418"
 metafile = true
@@ -1217,6 +1227,11 @@ hash = "0ac2ef683d340a421aa6d35a5491e289ef8e5720bbb5e877a81c95ae496026a3"
 metafile = true
 
 [[files]]
+file = "mods/noisiumforked.pw.toml"
+hash = "33dde50a78c51c9c2f47b2755e1a7e8d19430112a2c3b53c399c3800dfc7903f"
+metafile = true
+
+[[files]]
 file = "mods/opac-bonus-claims.pw.toml"
 hash = "141b5d6b5224ba1e1466af22b61981b613d960bfc005ef8920cb247634e8bb9f"
 metafile = true
@@ -1389,6 +1404,11 @@ metafile = true
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "924590dd9b32e32f209e4e1986347b90355c07763e9a27dc79caa9cb12efeab5"
+metafile = true
+
+[[files]]
+file = "mods/smooth-chunk-save.pw.toml"
+hash = "e1732bc6bcc077b23a2784e21839c4d113e2dbf0de29e9448fb7b39d28b19a61"
 metafile = true
 
 [[files]]
