@@ -202,7 +202,7 @@ hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "8dcbeb29f8eeceabcb502226386bf49c64b220e8a169281c720374b66394a536"
+hash = "99beedf75ff7e94fa5319dde147b5a3d7de84dbf2735814f9181d74fd7ff673c"
 
 [[files]]
 file = "config/vanillabackport-common.toml"
