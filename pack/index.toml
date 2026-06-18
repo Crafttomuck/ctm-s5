@@ -357,11 +357,6 @@ hash = "a445471ac6843bcf9fb76eabb4357de0357dfa7782be536a7827a26764fe45c1"
 metafile = true
 
 [[files]]
-file = "mods/automaximize.pw.toml"
-hash = "129469fc17c0a650766f7d9cac659a9435d362d040fae1e4b09200f61acc96b1"
-metafile = true
-
-[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "8b4cb33940d2a5771439131c9b80d68b099efaf5c957ced3ab5ba6c59a0e85ae"
 metafile = true
