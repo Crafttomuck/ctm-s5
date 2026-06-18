@@ -1,0 +1,13 @@
+name = "Sable: Player Ragdoll"
+filename = "sable_player_ragdoll-1.21.1-0.6.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b1711740c1a100534de0bde5d10866ae546e8fb3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8242321
+project-id = 1572492

@@ -1,0 +1,13 @@
+name = "VS / Sable Hose Connectors"
+filename = "VS-Sable-HoseConnectors-0.1.7-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f15dfc22a953d76f0d3596a6687d39d9d8eca23c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8245613
+project-id = 1426984

@@ -1,13 +1,13 @@
 name = "Epic Structures: Igloo"
-filename = "epic-structures-igloo-v1.0.3 1.21+ 26+.jar"
+filename = "epic igloo (1.21+ 26+).jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "edd3869548840d1a8c7339c092dc7c1cc742ed45"
+hash = "d858a14115d7fcc6bedca442a3ebe67de9fa5584"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7977808
+file-id = 8243854
 project-id = 1511498

@@ -1,13 +1,13 @@
 name = "Sophisticated Sorter"
-filename = "sophisticatedsorter-1.0.6-hotfix.jar"
+filename = "sophisticatedsorter-1.0.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f4df0d43df3df1da8cd4d52d53e3a323daff3922"
+hash = "ca1f42b2b8a277016855a09a5f8957398ef80a33"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7361414
+file-id = 8241329
 project-id = 1375092

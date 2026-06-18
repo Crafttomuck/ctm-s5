@@ -1,0 +1,13 @@
+name = "Luki's Strongholds"
+filename = "lukis-strongholds-v1.0 -1.21-1.21.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a0e56436dfea9883c10552ba94a7b3bfa1e6ecd4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7176734
+project-id = 1376305

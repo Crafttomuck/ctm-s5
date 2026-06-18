@@ -1,0 +1,13 @@
+name = "Fancy Entity Renderer"
+filename = "fancy-entity-renderer-neoforge-1.21-0.4.8.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "98f478bb6f2dbbcac343bcab7d695661a7f93d90"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8257275
+project-id = 1173643

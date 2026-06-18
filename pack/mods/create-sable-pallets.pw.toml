@@ -1,0 +1,13 @@
+name = "Create Sable Pallets"
+filename = "sable_pallets-1.0.2-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e2c5bf0e7e6b53f298c87c26d0b9ddf6c7dada9e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8215485
+project-id = 1562742

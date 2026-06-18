@@ -1,13 +1,13 @@
 name = "Create: Shuffle Filter"
-filename = "create-shufflefilter-2.0.2-neo.jar"
+filename = "create-shufflefilter-2.1.0-neo.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "56ad9f0b123e6c941c2a843a4da16e0e0edfc0ff"
+hash = "b3620760a9629efbc924c808c9bb68405f982650"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7972057
+file-id = 8150800
 project-id = 1357568
