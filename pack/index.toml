@@ -1535,11 +1535,6 @@ hash = "e1732bc6bcc077b23a2784e21839c4d113e2dbf0de29e9448fb7b39d28b19a61"
 metafile = true
 
 [[files]]
-file = "mods/sodium-options-api.pw.toml"
-hash = "40e1fdc8c58f72bb947b978a773cf963b2d28bb49832500c2bd886f7ac6629bb"
-metafile = true
-
-[[files]]
 file = "mods/sodium.pw.toml"
 hash = "e834e77c7dba1fa202f7d1a1c06cce8f5533ca90c7342074e72a9e6c381de268"
 metafile = true
