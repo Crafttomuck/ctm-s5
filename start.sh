@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 VERSION="0.0.4"
 VERSION_FILE=".ctm-s5-version"
 
-NEOFORGE_VERSION="21.1.228"
+NEOFORGE_VERSION="21.1.233"
 NEOFORGE_VERSION_FILE=".neoforge-version"
 
 download() {
