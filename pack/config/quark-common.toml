@@ -275,7 +275,7 @@
 	"Easy Transferring" = true
 	"Expanded Item Interactions" = true
 	"Hotbar Changer" = true
-	"Inventory Sorting" = false
+	"Inventory Sorting" = true
 	"Item Sharing" = true
 	"Quick Armor Swapping" = true
 
@@ -311,9 +311,9 @@
 		"Animation Time" = 7.0
 
 	[management.inventory_sorting]
-		"Enable Player Inventory" = false
-		"Enable Player Inventory In Chests" = false
-		"Enable Chests" = false
+		"Enable Player Inventory" = true
+		"Enable Player Inventory In Chests" = true
+		"Enable Chests" = true
 		#Play a click when sorting inventories using keybindings
 		"Satisfying Click" = false
 

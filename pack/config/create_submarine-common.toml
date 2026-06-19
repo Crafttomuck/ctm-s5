@@ -1,0 +1,7 @@
+#Create Deep Seas — partial override. Keys not listed use the mod's defaults,
+#filled in on first load.
+[client]
+	#Disable all Deep Seas startup UI screens (Welcome screen and Update notifications).
+	disableStartupScreens = true
+	#Treat the Deep Seas welcome screen as already acknowledged.
+	welcomeScreenSeen = true

@@ -1,0 +1,11 @@
+#.
+#Create Big Cannons server settings.
+#Partial override: any keys not listed here are filled with the mod's
+#defaults on first load.
+[munitions]
+	#.
+	#The extent to which cannon projectiles can damage surrounding blocks.
+	#ALL_DAMAGE - projectiles destroy anything they hit; explosives destroy blocks on detonation.
+	#NO_EXPLOSIVE_DAMAGE - projectiles destroy anything they hit; explosives only harm entities.
+	#NO_DAMAGE - projectiles never destroy blocks; they only deal entity damage.
+	damageRestriction = "NO_DAMAGE"

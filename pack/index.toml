@@ -41,6 +41,14 @@ file = "config/create-server.toml"
 hash = "2059506ec0cbd0f9dcc1abf2ae3fb81487ac37450361de924c0c04306dd01d6c"
 
 [[files]]
+file = "config/create_submarine-common.toml"
+hash = "4b8c2f063a77d7ca03cbf88616f5034a1fd51138705395ceaed546bfcc074d77"
+
+[[files]]
+file = "config/createbigcannons-server.toml"
+hash = "12321eae34b72c844517f7e7d8dee0334633cbd8505ad28e63a78cbef71d16a0"
+
+[[files]]
 file = "config/fancymenu/assets/b53ef99d78350015d542503cab55014618131de7.png"
 hash = "aeda24bf9fca5365a850928b208a5cc6d4c1ccd9b522045ee6580489adb0f22a"
 
@@ -214,7 +222,7 @@ hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "38b9938b0841229bc45d99a1a63515d1a2c6fd8d97d654f77d542ed54faac6e4"
+hash = "beb40527397482caaefeb19528dfbe157c2a0c8243fc4a5569d62bec605ef532"
 
 [[files]]
 file = "config/relics.yaml"
@@ -233,12 +241,16 @@ file = "config/vanillabackport-common.toml"
 hash = "2373e55b18ad93b33b5d6588b814ec0e9744ae44682d2e0bc3a75779bd538c59"
 
 [[files]]
+file = "config/vista-client.toml"
+hash = "837ba157d9ba5dedd5a8d98c6f9cafc9c3d8376418f6f1262275ae0f7c8f646b"
+
+[[files]]
 file = "config/voicechat/voicechat-server.properties"
 hash = "608786349573d05ed6c27f068955a7a9f2e7d832719bd635888606a2d1db4282"
 
 [[files]]
 file = "config/xaero/minimap/client.cfg"
-hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+hash = "80c77d2c2882d29b5ae19be7588b19fd6e9ef6ef1a9b66feda121bde76943263"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
@@ -549,6 +561,11 @@ hash = "59beba57945e374108e22789e8fc32d2758174929ebd9bf17fc139956dc32e30"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronauticstoolgun.pw.toml"
+hash = "df0ab5f93e25322be69f8154b0b7df7c6e1241813e8adcb8c8d13107b224306f"
+metafile = true
+
+[[files]]
 file = "mods/create-aeroworks.pw.toml"
 hash = "444c9eae90f89417f7c9dfc21eb3027a5fd72410e6066481b0d87570195baeb7"
 metafile = true
@@ -561,6 +578,11 @@ metafile = true
 [[files]]
 file = "mods/create-better-fps.pw.toml"
 hash = "a7250c8da96a2033b7e72213cbbcdad0601cb0750639e49d321f19776c8d0c87"
+metafile = true
+
+[[files]]
+file = "mods/create-big-cannons.pw.toml"
+hash = "8a0bfc3408cc1baeac6a2561fb2a62d3fa40ffa2fba0e9c89b09f2bea91d0c9c"
 metafile = true
 
 [[files]]
@@ -601,6 +623,11 @@ metafile = true
 [[files]]
 file = "mods/create-deco.pw.toml"
 hash = "900880f684238d2489dc6859c354abc7b145c617dbdac42e1873604632b9c831"
+metafile = true
+
+[[files]]
+file = "mods/create-deep-seas.pw.toml"
+hash = "96b3a6fcba1cbf8d976211fb2d13f934e0586ed6b80f0f4bed1a4b4ffe9a2a70"
 metafile = true
 
 [[files]]
@@ -1029,6 +1056,11 @@ hash = "e739b7355ab3cfba2e729f8f0b51eafc3d9c3afb19ee30ac7b311631610c5e66"
 metafile = true
 
 [[files]]
+file = "mods/jamlib.pw.toml"
+hash = "af8428daaf08a29dec8f58f71bcd9e32bf564203754f71b184f6ebb8b09a0c77"
+metafile = true
+
+[[files]]
 file = "mods/jinxedlib.pw.toml"
 hash = "1350afbe0b8ffcd889f3093b5e1feadb255224a1c887acbcc30a36e50450b351"
 metafile = true
@@ -1439,6 +1471,16 @@ hash = "2e8064e6ac6f707d6df65ee2738279ec31802ef70514584bb8c8a8ed2010f5f6"
 metafile = true
 
 [[files]]
+file = "mods/rightclickharvest.pw.toml"
+hash = "9f0a36fc8540ac5d4b9fc3944b5dd4c0e097d0a189f84a95efc5f77cfd891c1f"
+metafile = true
+
+[[files]]
+file = "mods/ritchies-projectile-library.pw.toml"
+hash = "c62b51a8248d15e3cb63880ac123a92dd6a67973a1eafc4c4cb09f3f74481f78"
+metafile = true
+
+[[files]]
 file = "mods/sable-player-ragdoll.pw.toml"
 hash = "0520371f479865478dedeccb4c4e90c5263c263553c6e20c07f3e80cb90b052a"
 metafile = true
@@ -1596,6 +1638,11 @@ metafile = true
 [[files]]
 file = "mods/tmrv.pw.toml"
 hash = "2d7ced992c8b356732f3372b329939b182b335cdbbfd5c7fec4727d67a3d720c"
+metafile = true
+
+[[files]]
+file = "mods/toast-control.pw.toml"
+hash = "59dba91bb98d9ec0b16dfd33cb975635a5b33a3c816b6c6a8f56d0416396b5e1"
 metafile = true
 
 [[files]]

@@ -1,0 +1,6 @@
+#Vista — partial override. Keys not listed use the mod's defaults, filled in on
+#first load. Disabling FFmpeg stops the "download FFmpeg" screen on first launch;
+#players who want TV video playback can re-enable it themselves.
+[television.wave_gate]
+	#Enable FFmpeg use. This is needed if you want to use the Wave Gate.
+	ffmpeg_enabled = false
