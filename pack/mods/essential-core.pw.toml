@@ -1,0 +1,13 @@
+name = "Essential Core - Inspect Blocks/Entities/Chunks/Players"
+filename = "EssentialCore-1.21.1-6.0.0.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "c2608c4405b01ea0ef7fc3cf7f76e22dc718b735"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8172017
+project-id = 1388058
