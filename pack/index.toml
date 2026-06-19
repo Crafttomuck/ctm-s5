@@ -545,6 +545,11 @@ hash = "444c9eae90f89417f7c9dfc21eb3027a5fd72410e6066481b0d87570195baeb7"
 metafile = true
 
 [[files]]
+file = "mods/create-applied-kinetics.pw.toml"
+hash = "d9194e55e2db6d1a8712b6356ba81d03a081c2a5a3fccf9a03ed89ceb124d984"
+metafile = true
+
+[[files]]
 file = "mods/create-better-fps.pw.toml"
 hash = "a7250c8da96a2033b7e72213cbbcdad0601cb0750639e49d321f19776c8d0c87"
 metafile = true
@@ -692,6 +697,11 @@ metafile = true
 [[files]]
 file = "mods/create-stats-additions.pw.toml"
 hash = "d8336a8b0ad735ee8d5149b06942ed9f5234050c70c531545afd60bee70e6729"
+metafile = true
+
+[[files]]
+file = "mods/create-stock-bridge.pw.toml"
+hash = "5426e7b1e7a895606d788cdc1d21915423bac84e5fed1ca62386e66b7ba1bec5"
 metafile = true
 
 [[files]]
@@ -1317,6 +1327,11 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "8b725f1822c0feab9e51bef600f2ee6f4c26efbb55aa3ee9073a027f1f134202"
+metafile = true
+
+[[files]]
+file = "mods/polymorphic-energistics.pw.toml"
+hash = "330eae6dd751b70d4761f5fb556bc476f693549f3eb42ff7f441e1cd5bfe3cfb"
 metafile = true
 
 [[files]]
