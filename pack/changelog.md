@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.3
+
+### Removed
+- Ragdoll Revive — its downed/revive state could leave players stuck after ragdolling (cosmetic ragdolls kept)
+
 ## 1.0.2
 
 ### Removed
