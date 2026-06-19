@@ -37,6 +37,10 @@ file = "config/beachparty-common.toml"
 hash = "de2b6355aa01d00ad6c7a487ac52e3029e370b4e0fe676ae4f92983f15dc9aaa"
 
 [[files]]
+file = "config/carryon-common.toml"
+hash = "259ebc67ca7144fe6433714208c1ae8da03a77a9949de05d006ea3de8b2169a8"
+
+[[files]]
 file = "config/create-server.toml"
 hash = "2059506ec0cbd0f9dcc1abf2ae3fb81487ac37450361de924c0c04306dd01d6c"
 
