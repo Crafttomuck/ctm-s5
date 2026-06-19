@@ -1,12 +1,12 @@
 name = "CTM: Cogs and Canvas"
 author = "CTM Staff"
-version = "0.0.5"
+version = "0.0.6"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "396d4481fb2889a01e71d058837a4a2ec8cc5cfe11bce93c2b962206cd0f089b"
+hash = "72831afa71a89f94e82b7311481e7e4c34e343fdc46a300fc07ca0a9254a93da"
 
 [versions]
 minecraft = "1.21.1"

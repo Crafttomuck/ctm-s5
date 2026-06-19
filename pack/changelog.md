@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.6
+
+### Added
+- spark, Observable, Crash Utilities — performance profiling and crash diagnostics
+- Entity Culling — entity render-culling optimization
+- ServerCore — server-side performance optimizations, with dynamic performance scaling and activation range enabled
+
 ## 0.0.5
 
 ### Added

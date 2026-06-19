@@ -3,7 +3,7 @@ set -e
 
 cd "$(dirname "$0")"
 
-VERSION="0.0.5"
+VERSION="0.0.6"
 VERSION_FILE=".ctm-s5-version"
 
 NEOFORGE_VERSION="21.1.233"
