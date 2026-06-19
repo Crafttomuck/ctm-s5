@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0
+
+Initial release for Season 5 — CTM: Cogs and Canvas.
+
 ## 0.0.9
 
 ### Changed
