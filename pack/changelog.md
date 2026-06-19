@@ -1,5 +1,41 @@
 # Changelog
 
+## 0.0.5
+
+### Added
+- AE2 × Create integration: Create: Applied Kinetics, Polymorphic Energistics, Create Stock Bridge
+- TooManyRecipeViewers — recipes from JEI-only mods now show in EMI
+- Create Aeronautics ecosystem: Delivery Required, Transmission & Linkage, Propulsion: Simulated, Sable Pallets, Sound of Steam, VS/Sable Hose Connectors
+- Create: Garnished, Steam 'n' Rails
+- Luki's structures: Ancient Cities, Strongholds, Woodland Mansions, Crazy Chambers
+- Star Worm Equestrian (SWEM), Exposure, Copper Age Backport
+- Ragdoll Reactions, Ragdoll Revive, Sable: Player Ragdoll
+- Player Animation Library, playerAnimator, Fancy Entity Renderer, MoreCulling
+- Ponder for KubeJS, MoreJS, Crash Assistant
+- Lithosphere — overworld terrain generation
+- BlueMap web map (server), Essential Core (server)
+
+### Removed
+- Create: Numismatics suite (Numismatics, Numismatic Bounties, Create 6.0 integration)
+- Kaleidoscope Cookery suite (Cookery, Automation, Ponder)
+- Macaw's Doors & Trapdoors; Every Compat (Wood Good) & Stone Zone
+- Create: Copper & Zinc, Create: Trading Floor, Create Railways Navigator
+- Configured & Configured Defaults, Map Atlases
+- spark, BetterF3, Better Advancements, Better Mods Button, Better Third Person
+- Toast Control, Stylish Effects, Drippy Loading Screen, Freecam, Observable, Log Begone, Remove Reloading Screen
+- Hang Glider, Armor Statues, NetherPortalFix, Leaves Be Gone, Let Me Despawn, [Let's Do] Furniture
+- YUNG's Better Strongholds, Vista Aeronautics Fix
+
+### Changed
+- NeoForge 21.1.228 → 21.1.233
+- AE2 meteorites now generate only in the End
+- AE2 Fluix Researcher villager no longer sells meteorite-gated items (inscriber presses, certus quartz, sky stone, fluix)
+- Disabled the Quark "Configure Quark Here" onboarding popup (the config button is kept)
+- Title screen: logo re-centered over the menu, and the player now lines up with the rope at any window size
+- Synced server-tuned config values (Create Aeronautics rope range, Create schematic limits, voice chat, artifacts, relics, and more)
+- 60+ mods updated to current versions
+- Updated bundled server list
+
 ## 0.0.4
 
 ### Added
