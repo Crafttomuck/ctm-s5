@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.0.7
+
+### Added
+- Create Big Cannons (+ Ritchie's Projectile Library)
+- Create Deep Seas — physics-based submarines
+- Create Aeronautics: Toolgun
+- RightClickHarvest — harvest and replant crops with right-click
+- Toast Control (client) — re-added
+
+### Changed
+- Create Big Cannons: cannon projectiles no longer damage blocks (entity damage only)
+- Create Deep Seas: first-launch welcome/update screens disabled
+- Vista: FFmpeg disabled by default (no first-launch download prompt)
+- Xaero's: update-notification popup disabled
+- Quark: inventory sorting re-enabled (buttons + keybind)
+
 ## 0.0.6
 
 ### Added
