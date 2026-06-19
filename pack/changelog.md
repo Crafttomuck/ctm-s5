@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.9
+
+### Changed
+- Carry On: pickup is now limited to players, villagers, and animals (vanilla + modded) — hostiles, golems, and other utility mobs can no longer be carried
+
 ## 0.0.8
 
 ### Updated
