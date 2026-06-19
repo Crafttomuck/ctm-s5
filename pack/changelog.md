@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1
+
+### Fixed
+- Opening Video Settings no longer crashes — removed Sodium Options API, which was built for an older Sodium and broke on the pack's version (dynamic lights and Reese's Sodium Options are unaffected)
+
 ## 1.0.0
 
 Initial release for Season 5 — CTM: Cogs and Canvas.
