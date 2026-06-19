@@ -281,6 +281,10 @@ file = "kubejs/data/ae2/tags/worldgen/biome/has_meteorites.json"
 hash = "22183d53c306c891c16f928ea5f615df486871a35db6d6a778610c8d0637623e"
 
 [[files]]
+file = "kubejs/server_scripts/ae2_fluix_researcher.js"
+hash = "ede2e4648550e2de23f880b70491c675be4aa3b3338f20c505feb00c1778a065"
+
+[[files]]
 file = "mods/accessories.pw.toml"
 hash = "39ec3cac812f819f45b88a70f6b83eb8c0e6007e9272bbccfb3f364b421d2631"
 metafile = true
@@ -1223,6 +1227,11 @@ metafile = true
 [[files]]
 file = "mods/moreculling.pw.toml"
 hash = "5a6923fd7118188866c82daf7f2eb7f4f9b07ecca1e4461f8b91d5f6cf5a08d0"
+metafile = true
+
+[[files]]
+file = "mods/morejs.pw.toml"
+hash = "564b879b80fefa01331a62aded574c6f7d7f55c701f031e2b5072f02737560d0"
 metafile = true
 
 [[files]]
