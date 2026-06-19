@@ -1,13 +1,13 @@
 name = "Ragdoll Revive"
-filename = "ragdoll_revive-1.1.jar"
+filename = "ragdoll_revive-1.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a61c60f4d69c8055e456f616c6f16dc7e921b3c5"
+hash = "c87f07e38defd67d2010e4504a2318d5fe583294"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8258139
+file-id = 8273908
 project-id = 1576374

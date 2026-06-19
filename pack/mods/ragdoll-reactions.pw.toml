@@ -1,13 +1,13 @@
 name = "Ragdoll Reactions"
-filename = "ragdoll_reactions-1.21.1-0.6.5.jar"
+filename = "ragdoll_reactions-1.21.1-0.7.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "31b44f45eb7cc5f26c1dbd090cd6633446cf32c9"
+hash = "60fd4e9695b4cc3055ef728dc1023f0a335cfc32"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8242329
+file-id = 8281400
 project-id = 1572496

@@ -1,13 +1,13 @@
 name = "Lake Feature Fix"
-filename = "lakefeaturefix-0.0.2-1.21.1-neoforge.jar"
+filename = "lakefeaturefix-neoforge-1.21.1-21.0.0.jar"
 side = "server"
 
 [download]
 hash-format = "sha1"
-hash = "f9e9337fdc2bf139279da0a71cc5fedf58a97add"
+hash = "a9e5135f18b6daca8dff6bbac4a87bfd367929a9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6213815
+file-id = 8271061
 project-id = 1203911
