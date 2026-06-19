@@ -79,6 +79,22 @@ jobs:
             ${{ steps.pack.outputs.server_zip }}
           if-no-files-found: ignore
 
+      - name: Extract release notes from changelog
+        id: notes
+        run: |
+          ver="${{ steps.pack.outputs.version }}"
+          awk -v hdr="## $ver" '
+            $0 == hdr { f = 1; next }
+            /^## / && f { exit }
+            f { print }
+          ' pack/changelog.md > RELEASE_NOTES.md
+          if grep -q '[^[:space:]]' RELEASE_NOTES.md; then
+            echo "has_notes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_notes=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::No changelog section found for $ver; falling back to auto-generated notes."
+          fi
+
       - name: Create or update release
         env:
           GH_TOKEN: ${{ github.token }}
@@ -92,11 +108,20 @@ jobs:
             assets+=("$server")
           fi
 
+          if [ "${{ steps.notes.outputs.has_notes }}" = "true" ]; then
+            notes_args=(--notes-file RELEASE_NOTES.md)
+          else
+            notes_args=(--generate-notes)
+          fi
+
           if gh release view "$tag" >/dev/null 2>&1; then
             gh release upload "$tag" "${assets[@]}" --clobber
+            if [ "${{ steps.notes.outputs.has_notes }}" = "true" ]; then
+              gh release edit "$tag" --notes-file RELEASE_NOTES.md
+            fi
           else
             gh release create "$tag" "${assets[@]}" \
               --target "$GITHUB_SHA" \
-              --generate-notes \
+              "${notes_args[@]}" \
               --title "$tag"
           fi
