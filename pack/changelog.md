@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2
+
+### Removed
+- Carry On — was causing frequent crashes
+
 ## 1.0.1
 
 ### Fixed
