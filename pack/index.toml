@@ -525,6 +525,11 @@ hash = "662737729361c921d8f559e6a7cfb206952488d5126fce253765a9bcd5855c33"
 metafile = true
 
 [[files]]
+file = "mods/crash-utilities.pw.toml"
+hash = "6457e8702c7c3d603e1e35252bf2388db4ec44c875209af3c4364a79f4c1709c"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-delivery-required.pw.toml"
 hash = "efc272f326f72b54b8113a529ae3656b2dd6eff4529ad511733ea3bf2eaf4712"
 metafile = true
@@ -832,6 +837,11 @@ metafile = true
 [[files]]
 file = "mods/entity-texture-features-fabric.pw.toml"
 hash = "cc68235aff068c4a38af04e4091516720bb731cbb3789b1f6736f096523b336f"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "09a12e20cb7aecf06375031453e76b127cb2ac7315939ea8948edb884146c77a"
 metafile = true
 
 [[files]]
@@ -1285,6 +1295,11 @@ hash = "33dde50a78c51c9c2f47b2755e1a7e8d19430112a2c3b53c399c3800dfc7903f"
 metafile = true
 
 [[files]]
+file = "mods/observable.pw.toml"
+hash = "00fb150ec4389dbe540bcede8ac3b6e34677f5bf3e3454732d311b7e44569d63"
+metafile = true
+
+[[files]]
 file = "mods/opac-bonus-claims.pw.toml"
 hash = "141b5d6b5224ba1e1466af22b61981b613d960bfc005ef8920cb247634e8bb9f"
 metafile = true
@@ -1512,6 +1527,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "e4ffd0590c460253cd80d4e27839cd3b43b98605eeaf3f5e46ca2a78715170ca"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
 metafile = true
 
 [[files]]
