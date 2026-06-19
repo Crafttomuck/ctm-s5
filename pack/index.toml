@@ -221,6 +221,10 @@ file = "config/relics.yaml"
 hash = "a99ad6248bf0f596bd577b3c02135889b7421ce1f6872180df6ed627e43cb2aa"
 
 [[files]]
+file = "config/servercore/config.yml"
+hash = "61890a9e7e3aa044c762e6db6a80e33d7b56dfdad1c61a2ac0e145bc21cae4fc"
+
+[[files]]
 file = "config/simulated-server.toml"
 hash = "65de5a8ff5279ab4acbacb7d5768b9e827492d554aabbd0a5ae305ad8d0c6583"
 
