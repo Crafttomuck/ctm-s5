@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "f921d6a009c11a6abc426592b97a8462f217b0e2ae120ba8c50e231d824d33e3"
+hash = "83ad47d7781f9aa96ce66b7e03296591e1cbc3f1bd9cd140f34382539920b8a4"
 
 [[files]]
 file = "config/almostunified/debug.json"

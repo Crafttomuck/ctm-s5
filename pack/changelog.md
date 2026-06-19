@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.0.8
+
+### Updated
+- 15 mods updated to current versions: Sable, LDLib, Fusion, Simple Voice Chat,
+  Sophisticated Backpacks / Core / Create Integration, Create: The Factory Must Grow,
+  Create Aeronautics: Transmission & Linkage, Supplementaries Squared, Ragdoll
+  Reactions, Ragdoll Revive, Sable: Player Ragdoll, Crash Assistant, Lake Feature Fix
+- Held back pre-release builds: Steam 'n' Rails, Create: Enchantment Industry,
+  Moog's Structure Lib, and Create: Garnished stay on their stable versions
+
 ## 0.0.7
 
 ### Added
