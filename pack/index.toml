@@ -29,6 +29,18 @@ file = "config/almostunified/unification/materials.json"
 hash = "40cff1947aa79cfaf5a91ab8a7dff7e51f17173771c5bae8ac5e2d1f954d3762"
 
 [[files]]
+file = "config/artifacts/general.toml"
+hash = "f38f649c03f62a8c1968a1d60dbe94790463edb9ef0ad8b4ca4f70cb9abfbf43"
+
+[[files]]
+file = "config/beachparty-common.toml"
+hash = "de2b6355aa01d00ad6c7a487ac52e3029e370b4e0fe676ae4f92983f15dc9aaa"
+
+[[files]]
+file = "config/create-server.toml"
+hash = "2059506ec0cbd0f9dcc1abf2ae3fb81487ac37450361de924c0c04306dd01d6c"
+
+[[files]]
 file = "config/fancymenu/assets/b53ef99d78350015d542503cab55014618131de7.png"
 hash = "aeda24bf9fca5365a850928b208a5cc6d4c1ccd9b522045ee6580489adb0f22a"
 
@@ -202,11 +214,23 @@ hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "99beedf75ff7e94fa5319dde147b5a3d7de84dbf2735814f9181d74fd7ff673c"
+hash = "38b9938b0841229bc45d99a1a63515d1a2c6fd8d97d654f77d542ed54faac6e4"
+
+[[files]]
+file = "config/relics.yaml"
+hash = "a99ad6248bf0f596bd577b3c02135889b7421ce1f6872180df6ed627e43cb2aa"
+
+[[files]]
+file = "config/simulated-server.toml"
+hash = "65de5a8ff5279ab4acbacb7d5768b9e827492d554aabbd0a5ae305ad8d0c6583"
 
 [[files]]
 file = "config/vanillabackport-common.toml"
 hash = "2373e55b18ad93b33b5d6588b814ec0e9744ae44682d2e0bc3a75779bd538c59"
+
+[[files]]
+file = "config/voicechat/voicechat-server.properties"
+hash = "608786349573d05ed6c27f068955a7a9f2e7d832719bd635888606a2d1db4282"
 
 [[files]]
 file = "config/xaero/minimap/client.cfg"
