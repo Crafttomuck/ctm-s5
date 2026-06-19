@@ -1445,6 +1445,11 @@ hash = "41b10084e8fb4a6e8a620063d497a8b0937a05889004f217f80ec45b540d7df4"
 metafile = true
 
 [[files]]
+file = "mods/servercore.pw.toml"
+hash = "7faf1cbea4484ce5e149d719e622c2d660e82da98be807da6e7b4b9988506124"
+metafile = true
+
+[[files]]
 file = "mods/simple-grappling-hook.pw.toml"
 hash = "f44899ea9f7bb139d83e2a82ca6cf18d29ce71bca6ab59f52f787835583a2715"
 metafile = true
