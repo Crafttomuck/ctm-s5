@@ -37,10 +37,6 @@ file = "config/beachparty-common.toml"
 hash = "de2b6355aa01d00ad6c7a487ac52e3029e370b4e0fe676ae4f92983f15dc9aaa"
 
 [[files]]
-file = "config/carryon-common.toml"
-hash = "259ebc67ca7144fe6433714208c1ae8da03a77a9949de05d006ea3de8b2169a8"
-
-[[files]]
 file = "config/create-server.toml"
 hash = "2059506ec0cbd0f9dcc1abf2ae3fb81487ac37450361de924c0c04306dd01d6c"
 
@@ -462,11 +458,6 @@ metafile = true
 [[files]]
 file = "mods/c2me.pw.toml"
 hash = "726334adfd226c815c78ecf79169a0db3c5079efbb9671d8051bfc559c8b4359"
-metafile = true
-
-[[files]]
-file = "mods/carry-on.pw.toml"
-hash = "11fa4cee80d5456e1681f8229c756d8c4aaa3ce6fcd8ab0bef62f408c95441e6"
 metafile = true
 
 [[files]]
