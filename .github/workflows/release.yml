@@ -137,7 +137,7 @@ jobs:
           curseforge-id: ${{ vars.CURSEFORGE_PROJECT_ID }}
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           files: ${{ steps.pack.outputs.client_zip }}
-          name: "v${{ steps.pack.outputs.version }}"
+          name: "CraftToMuck-Season5-${{ steps.pack.outputs.version }}.zip"
           version: "${{ steps.pack.outputs.version }}"
           version-type: release
           game-versions: "1.21.1"
