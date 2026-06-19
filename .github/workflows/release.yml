@@ -125,3 +125,21 @@ jobs:
               "${notes_args[@]}" \
               --title "$tag"
           fi
+
+      # Uploads the client zip to CurseForge. Runs only when the project ID
+      # variable is configured (Settings > Secrets and variables > Actions):
+      #   - variable CURSEFORGE_PROJECT_ID = the modpack's CurseForge project ID
+      #   - secret   CURSEFORGE_TOKEN      = a CurseForge API upload token
+      - name: Publish client to CurseForge
+        if: ${{ vars.CURSEFORGE_PROJECT_ID != '' }}
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          curseforge-id: ${{ vars.CURSEFORGE_PROJECT_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          files: ${{ steps.pack.outputs.client_zip }}
+          name: "v${{ steps.pack.outputs.version }}"
+          version: "${{ steps.pack.outputs.version }}"
+          version-type: release
+          game-versions: "1.21.1"
+          loaders: neoforge
+          changelog-file: RELEASE_NOTES.md
