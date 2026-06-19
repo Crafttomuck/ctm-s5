@@ -1416,11 +1416,6 @@ hash = "eb182616552dab79fd14b55c12a2a0f8e1153ec6c9d90989acffe1c420621ca0"
 metafile = true
 
 [[files]]
-file = "mods/ragdoll-revive.pw.toml"
-hash = "b9885f472dad7177547acd123ed74589f1be57a43636bbaf7b1b86256409835f"
-metafile = true
-
-[[files]]
 file = "mods/rechiseled-ae2.pw.toml"
 hash = "5d3e339643422916f97d04448dbb368bdd0610836e50b12fb52a95534b65b4e6"
 metafile = true
