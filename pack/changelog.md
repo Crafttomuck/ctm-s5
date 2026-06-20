@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.4
+
+### Removed
+- Ragdoll Reactions and Sable: Ragdolls — all ragdoll mods removed (the suite was causing stuck/soft-lock states)
+
 ## 1.0.3
 
 ### Removed
