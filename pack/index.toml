@@ -1411,11 +1411,6 @@ hash = "ed816a4574588c1d994fd152c024bc888737c2d5b5bd5a1314705e97e8462d9a"
 metafile = true
 
 [[files]]
-file = "mods/ragdoll-reactions.pw.toml"
-hash = "eb182616552dab79fd14b55c12a2a0f8e1153ec6c9d90989acffe1c420621ca0"
-metafile = true
-
-[[files]]
 file = "mods/rechiseled-ae2.pw.toml"
 hash = "5d3e339643422916f97d04448dbb368bdd0610836e50b12fb52a95534b65b4e6"
 metafile = true
@@ -1468,11 +1463,6 @@ metafile = true
 [[files]]
 file = "mods/ritchies-projectile-library.pw.toml"
 hash = "c62b51a8248d15e3cb63880ac123a92dd6a67973a1eafc4c4cb09f3f74481f78"
-metafile = true
-
-[[files]]
-file = "mods/sable-player-ragdoll.pw.toml"
-hash = "bee0fa8282a2b6445eb976376db0ec0d8543c1ff392a97d59c9947e000f77d17"
 metafile = true
 
 [[files]]
