@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.5
+
+### Removed
+- Essential Core (server-side inspection tool)
+
 ## 1.0.4
 
 ### Removed
