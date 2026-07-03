@@ -1,6 +1,7 @@
 name = "Create: Garnished"
 filename = "garnished-2.1.9.1+1.21.1-neoforged.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"
