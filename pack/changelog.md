@@ -6,6 +6,7 @@
 - Building Gadgets and Construction Sticks — building and placement tools
 - Create: Numismatics — currency and economy
 - In Control! — mob spawn and difficulty control
+- Sodium Extra — extra client-side render options and tweaks for Sodium
 
 ### Changed
 - Create: schematicannon delay lowered (4 → 1) and max track placement length raised (32 → 64)

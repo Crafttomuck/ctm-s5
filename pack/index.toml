@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "b293009a279939961ccb80d3852f1aa54d95126b95a8c9c9453d895aeea15566"
+hash = "1619630d0b4cfb0269169e2162262cbeeb72f08ddec390152602909b61c4b8b7"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -1554,6 +1554,11 @@ metafile = true
 [[files]]
 file = "mods/smooth-chunk-save.pw.toml"
 hash = "e1732bc6bcc077b23a2784e21839c4d113e2dbf0de29e9448fb7b39d28b19a61"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "7b501ee86fe91386a05da04a65315906b5b663425643f1917565d7a827e7ef7f"
 metafile = true
 
 [[files]]
