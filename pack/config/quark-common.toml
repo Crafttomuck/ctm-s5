@@ -271,7 +271,7 @@
 		"Enable Pillar" = true
 
 [management]
-	"Automatic Tool Restock" = true
+	"Automatic Tool Restock" = false
 	"Easy Transferring" = true
 	"Expanded Item Interactions" = true
 	"Hotbar Changer" = true
