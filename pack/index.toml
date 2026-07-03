@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "1619630d0b4cfb0269169e2162262cbeeb72f08ddec390152602909b61c4b8b7"
+hash = "23db9e2f02ad6ff655ec136bc249ae0b48fc00b83d32d13729cf0b05ad442671"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -1567,6 +1567,11 @@ hash = "2d91f5eb645318ec44fce398d7f3587df9492cf3bb40450570a9e0e865cdceed"
 metafile = true
 
 [[files]]
+file = "mods/some-assembly-required.pw.toml"
+hash = "3ee552df830edc21983af39740f267599437cd98a4e37b071413a598716861a8"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks-create-integration.pw.toml"
 hash = "886f3986d03ace73f8dd524ac70f708dd24e197d3828d45ad39d2e28fee366d2"
 metafile = true
@@ -1652,8 +1657,18 @@ hash = "34ef88b3e43662d1c2a8c5189003b7d4d471fe9909cd162849d13e9f770da50c"
 metafile = true
 
 [[files]]
+file = "mods/swdm.pw.toml"
+hash = "9a03ab83f2eefbb09843d04e9335df0fd5555f4fc06956487c91fba543cd2815"
+metafile = true
+
+[[files]]
 file = "mods/swem.pw.toml"
 hash = "5a844c6786cc39c6049fea8a0d72a3717b2c95e5e6337370f6ba14883d35ff3e"
+metafile = true
+
+[[files]]
+file = "mods/swlm.pw.toml"
+hash = "e05dd89961b8d4c62dde190b5fb3087f4d2fd6e85ffd390de0adf50350b55bbb"
 metafile = true
 
 [[files]]

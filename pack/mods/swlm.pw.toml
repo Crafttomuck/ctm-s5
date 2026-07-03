@@ -1,0 +1,13 @@
+name = "Star Worm Lighting"
+filename = "swlm-1.21.1-2.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3e88f3c9f7e8fb1e59978ccf05d25607cd0cd130"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8060744
+project-id = 381070

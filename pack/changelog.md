@@ -7,6 +7,8 @@
 - Create: Numismatics — currency and economy
 - In Control! — mob spawn and difficulty control
 - Sodium Extra — extra client-side render options and tweaks for Sodium
+- Create: Some Assembly Required — build-your-own sandwiches and food
+- Star Worm Lighting and Star Worm Decor — SWEM lighting and decoration addons
 
 ### Changed
 - Create: schematicannon delay lowered (4 → 1) and max track placement length raised (32 → 64)
