@@ -1,5 +1,30 @@
 # Changelog
 
+## 1.0.6
+
+### Added
+- Building Gadgets and Construction Sticks — building and placement tools
+- Create: Numismatics — currency and economy
+- In Control! — mob spawn and difficulty control
+
+### Changed
+- Create: schematicannon delay lowered (4 → 1) and max track placement length raised (32 → 64)
+- Quark: Automatic Tool Restock disabled
+- TFMG limestone crushing now also drops limesand
+- Removed the Synaxis compact flap recipe and the Farm & Charm feeding/water trough recipes
+- SWEM star worm cobble no longer drops XP
+- Create: Delivery Required contract and market prices retuned
+- Added custom chat formatting plus /broadcast and /titlecast commands
+
+### Updated
+- 40 mods updated to current versions (Supplementaries, Sophisticated Backpacks /
+  Core / Storage, Create: Connected, Vista, Reese's Sodium Options, Amendments,
+  GeckoLib, ModernFix, and more)
+- Steam 'n' Rails moved to the 0.3.0-alpha.2 build
+- Create Slice & Dice switched to its native NeoForge build
+- Held on their stable versions: Create: Garnished, Create: Enchantment Industry,
+  Moog's Structure Lib
+
 ## 1.0.5
 
 ### Removed
