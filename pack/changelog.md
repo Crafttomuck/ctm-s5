@@ -30,6 +30,17 @@
 - Title screen layout updated, with a separate compact layout for windows
   narrower than 1400px
 
+### Updated
+- 24 mods updated to current versions (Sophisticated suite, Xaero's Minimap /
+  World Map, Sodium 0.8.12 stable, Vista, Create: Stats & Additions, Create:
+  Framed, LDLib, Open Parties and Claims, Epic Structures, Blueprint, Balm,
+  ATi Structures, and more)
+- Create Aeronautics Toolgun 0.2.2 -> 0.2.3 (verified compatible with the
+  server-side OP teleport gate)
+- Create: Aeroworks 1.2.11 -> 1.3.0
+- Still pinned: Create: Garnished, Create: Enchantment Industry, Moog's
+  Structure Lib
+
 ### Removed
 - Create Jetpack and Create: Curios Jetpack & Backtank
 

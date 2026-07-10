@@ -1,13 +1,13 @@
 name = "Epic Structures: Villages "
-filename = "Epic Villages 1.3.0 (1.21+).jar"
+filename = "Epic Villages 1.3.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c1a6a052425848c3c498c55ffe59adfbe316ec0f"
+hash = "3780da0b6fc05224069f0b7f398279b5e6724747"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7996778
+file-id = 8383187
 project-id = 1308486
