@@ -1,12 +1,10 @@
 ServerEvents.recipes(event => {
-    // Remove existing limestone crushing recipe
-    event.remove({ type: 'create:crushing', input: 'tfmg:limestone' })
+  event.remove({ id: 'create:crushing/limestone' })
 
-    // Re-add with limesand included
-    event.recipes.create.crushing([
-        Item.of('garnished:crushed_salt'),
-        Item.of('create:zinc_nugget').withChance(0.05),
-        Item.of('minecraft:iron_nugget').withChance(0.1),
-        Item.of('tfmg:limesand').withChance(0.5)
-    ], 'tfmg:limestone')
+  event.recipes.create.crushing([
+    'tfmg:limesand',
+    'garnished:crushed_salt',
+    CreateItem.of(Item.of('minecraft:iron_nugget', 2), 0.1),
+    CreateItem.of(Item.of('create:zinc_nugget', 2), 0.1)
+  ], 'create:limestone')
 })

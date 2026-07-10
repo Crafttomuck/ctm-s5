@@ -41,6 +41,10 @@ file = "config/create-server.toml"
 hash = "1bb0288f4949026b8f5a78e2f5f31bafbd424008cfb8f712b3ef42c7064b2deb"
 
 [[files]]
+file = "config/create-stuff-additions.toml"
+hash = "ed2faba7d249d6e2329e42711d5158f6c53f96446682ab9f97f49be59af8034a"
+
+[[files]]
 file = "config/create_submarine-common.toml"
 hash = "4b8c2f063a77d7ca03cbf88616f5034a1fd51138705395ceaed546bfcc074d77"
 
@@ -50,11 +54,15 @@ hash = "12321eae34b72c844517f7e7d8dee0334633cbd8505ad28e63a78cbef71d16a0"
 
 [[files]]
 file = "config/createdeliveryrequired-contract-item-prices.toml"
-hash = "1139f7e2c23e66cfd381388a73d02a29809c50a77293c8202de3e80b074af629"
+hash = "49be8df4d8f22b32c1b555b8a2481c88983b1dd726c522a8db07c4f016b6d4f2"
 
 [[files]]
 file = "config/createdeliveryrequired-market-item-prices.toml"
-hash = "1d8f155aace1d5a6a9526589a77b6f8a33b8926a2fd29c51cea72bc9ea121064"
+hash = "f67a1fde511e03c9778f8c55dc197ea03ff6f9d2f08551b6d9a6bc8e702ae0c6"
+
+[[files]]
+file = "config/createdeliveryrequired-server.toml"
+hash = "a2e3f5c137d9c4ab487508f6cdf74e3e3763b6681841faccc7e8c05c1cbcab9a"
 
 [[files]]
 file = "config/fancymenu/assets/b53ef99d78350015d542503cab55014618131de7.png"
@@ -229,6 +237,10 @@ file = "config/fancymenu/user_variables.db"
 hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
+file = "config/immersive_furniture.json"
+hash = "bf2382f87e3ed76f8448e0aa4b242b1a64e1ce61e9dec83a39c62f25ebabcc0f"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "1ae705d2d59c7057fe94652e67d62bce7e156ef3ceade58db6e2f618077ad895"
 
@@ -306,7 +318,7 @@ hash = "22183d53c306c891c16f928ea5f615df486871a35db6d6a778610c8d0637623e"
 
 [[files]]
 file = "kubejs/server_scripts/add_limesand_crushing.js"
-hash = "ef7f9699bc36fe6b8f42dbb2e6c0194ba5fb8a017f456cdfe5c204ad0bdb2a47"
+hash = "e1169c287922ece3162e8ad8c1775c080a64bd22a594fbda5d82e9b7d7256967"
 
 [[files]]
 file = "kubejs/server_scripts/ae2_fluix_researcher.js"
@@ -321,6 +333,14 @@ file = "kubejs/server_scripts/chat.js"
 hash = "1ebe1f53be843dbfe336e23f031fe247d2dc1558ea259bcf07d198422a9453f3"
 
 [[files]]
+file = "kubejs/server_scripts/manyideas_panels_create.js"
+hash = "4d10e03fee0d9e125abf2525ab9e0c5b88bb62fabdd0752ba9d875bdf8d6e726"
+
+[[files]]
+file = "kubejs/server_scripts/red_bulk_dyeing.js"
+hash = "7e28ec9aa6c30c89877b2f99aeb5704b4cb2428520fe7d5f579d1531ad2cfd20"
+
+[[files]]
 file = "kubejs/server_scripts/remove_compact_flap.js"
 hash = "25e5b0379e390f95aded9f143408567b267275a2d29f472bb6c857b841eceb82"
 
@@ -331,6 +351,22 @@ hash = "c791d8ce8c27bf52087228e053247d73dc7d370aed982606ede174ec00e76fe0"
 [[files]]
 file = "kubejs/server_scripts/remove_trough_recipes.js"
 hash = "4724e99db9a913fb881d1d128313398ae376339bac7bf868714793ac51b630cb"
+
+[[files]]
+file = "kubejs/server_scripts/rustic_doors.js"
+hash = "dc9289965ec5496511dfff3a234be2a918761d58b883c3cd1e563a9014d94db8"
+
+[[files]]
+file = "kubejs/server_scripts/seed_tags.js"
+hash = "04524a23cf32bf6f63a332c3ca6507a5367a62f2e311098f06b6847ee739c40e"
+
+[[files]]
+file = "kubejs/server_scripts/swlm_stained_glass_fix.js"
+hash = "85913675bf1e35edf34e53d76c11cf8179f1cbc3e434591cf347712904e9d644"
+
+[[files]]
+file = "kubejs/server_scripts/tfmg_concrete.js"
+hash = "f25b7bf56b2c6e27a7d3f491095bb0c7f0806fb66b877782a976f2896b2a4f9d"
 
 [[files]]
 file = "kubejs/startup_scripts/formatting.js"

@@ -1,5 +1,26 @@
 # Changelog
 
+## 1.0.7
+
+### Added
+- Create recipes for ManyIdeas panels and plates (pressing/deploying)
+- Rustic doors via deploying, with stonecutting style variants
+- Bulk dyeing of any planks to red planks via splashing
+- TFMG concrete from Diesel Generators cement fluids (heated compacting)
+- SWEM oat/timothy/alfalfa seeds tagged as `c:seeds`
+
+### Changed
+- Limesand crushing reworked: crushes Create limestone (by recipe id) into limesand,
+  crushed salt, and iron/zinc nuggets
+- Removed Star Worm Light Mod colored-glass conversion recipes
+- Create: Delivery Required economy rebalanced — expanded contract/market price lists
+  (Create sheets and mechanisms, Big Cannons ingots, Propulsion platinum, fuels,
+  Farmer's Delight crates, fish, stones), longer travel/pickup distances, slower
+  rank progression, price multiplier normalized to 1.0
+- Create Stuff & Additions jetpacks tuned down: height caps (9–16 blocks),
+  reduced speeds, Above Cloud enchant disabled
+- Immersive Furniture interact distance raised to 128
+
 ## 1.0.6
 
 ### Added
