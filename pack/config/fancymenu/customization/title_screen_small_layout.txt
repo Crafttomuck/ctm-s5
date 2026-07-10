@@ -9,8 +9,8 @@ layout-meta {
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:3533d9a9-bb53-4d15-af13-00ea2d892e49-1781665102760] = [groups:][instances:aaaa1111-2222-3333-4444-bigwindowreq;]
-  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:aaaa1111-2222-3333-4444-bigwindowreq] = 1400
+  [loading_requirement_container_meta:3533d9a9-bb53-4d15-af13-00ea2d892e49-smallwin0001] = [groups:][instances:bbbb1111-2222-3333-4444-smallwindowq;]
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if_not][req_id:bbbb1111-2222-3333-4444-smallwindowq] = 1400
 }
 
 customization {
@@ -20,8 +20,8 @@ customization {
 
 customization {
   action = autoscale
-  basewidth = 1920
-  baseheight = 1010
+  basewidth = 1280
+  baseheight = 760
 }
 
 menu_background {
@@ -430,10 +430,10 @@ element {
   auto_sizing_base_screen_height = 1010
   sticky_anchor = false
   anchor_point = top-left
-  x = 56
-  y = 44
-  width = 389
-  height = 145
+  x = 32
+  y = 23
+  width = 298
+  height = 111
   stay_on_screen = false
   element_loading_requirement_container_identifier = b4211cd4-7ff9-4ef9-9e4b-7af51bafa545-1779721469012
   [loading_requirement_container_meta:b4211cd4-7ff9-4ef9-9e4b-7af51bafa545-1779721469012] = [groups:][instances:]
@@ -748,8 +748,8 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = d6d36d43-d1ad-4453-9f10-c29118a44c72-1779721469012
-  x = 291
-  y = 43
+  x = 223
+  y = 33
   width = 85
   height = 20
   stay_on_screen = true

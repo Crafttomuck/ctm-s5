@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "23db9e2f02ad6ff655ec136bc249ae0b48fc00b83d32d13729cf0b05ad442671"
+hash = "b809b3ddfe3e3c496a1812582d6ba2d00a9faf2eee0af3983c2b9e0c9da36a50"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -178,7 +178,11 @@ hash = "9cfc6172dd256f59417b4b4821513697d337a0f9922c7386c366bda86620817d"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "6c392a591be56c83e34524b1b05e8c7706d43e96258f29d4e878e687ff8118bf"
+hash = "4bf54baacf8694e81dbd85854d1ee0294c821a57a449dd0bdd3b406c227f5ef0"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_small_layout.txt"
+hash = "040fdb780c57be87ac0599a1eda2cd44802fd9228c32da3dd6eff48e42fbf0aa"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -688,11 +692,6 @@ hash = "e3304daa476fa3ac90a018720d190fd366cf6e20e9ce33b5aa8d16b40eaf3446"
 metafile = true
 
 [[files]]
-file = "mods/create-curios-jetpack.pw.toml"
-hash = "4d4804b4b09a1e8df068f465cca9b07b818ee6d6c2c061269e42b2cea9749be0"
-metafile = true
-
-[[files]]
 file = "mods/create-deco.pw.toml"
 hash = "900880f684238d2489dc6859c354abc7b145c617dbdac42e1873604632b9c831"
 metafile = true
@@ -745,11 +744,6 @@ metafile = true
 [[files]]
 file = "mods/create-industry.pw.toml"
 hash = "27ba9439d6b25314cfca911c474a9a34933dc7a25b4ee42ae3f2782f8d03b676"
-metafile = true
-
-[[files]]
-file = "mods/create-jetpack.pw.toml"
-hash = "ad89085cff15370c0a8bda81c22a3a040204c71f1ee170a458a949295dc219bf"
 metafile = true
 
 [[files]]
@@ -1038,6 +1032,11 @@ hash = "401e1738b00110910e243d520022a158e8f11bf018fc27e485c012f3720ce97f"
 metafile = true
 
 [[files]]
+file = "mods/frequency-create.pw.toml"
+hash = "1757c2d31a5bca0366703617a5b3883e6bdd02e0d128f0c92ae99e935e2e112a"
+metafile = true
+
+[[files]]
 file = "mods/friends-and-foes-forge.pw.toml"
 hash = "32acd1d72f72af833ddf713ccf1636106c741720b43d05b4da07b22442522411"
 metafile = true
@@ -1235,6 +1234,16 @@ metafile = true
 [[files]]
 file = "mods/lets-do-wildernature.pw.toml"
 hash = "0c93cce4687d676ade38014ef7c93eb70d00edb42537cf0beae8675b1affbb89"
+metafile = true
+
+[[files]]
+file = "mods/lever-drugster.pw.toml"
+hash = "32f32ed9184566e692231b505a9fa3c8639ab25d01fd003d5b21e9b42a2ad06a"
+metafile = true
+
+[[files]]
+file = "mods/lexiconfig.pw.toml"
+hash = "85c339a88003114e9fc81a308b95b6065981d7c1fb38d74222e011283b943254"
 metafile = true
 
 [[files]]
@@ -1528,6 +1537,11 @@ hash = "a63a24d0d6357d1ca0f72dc60351ff2c18d708be6ee1f6f8f9dcfd5f25983ceb"
 metafile = true
 
 [[files]]
+file = "mods/reliquified-artifacts.pw.toml"
+hash = "c3b96c81f2e2a80d2342773a7822d38073195e15e9d7f2c041259b4428657cda"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "aa83553db30adc47f86010f6443340251323a62ee3f9415a0c4332cb6d502419"
 metafile = true
@@ -1548,8 +1562,18 @@ hash = "c62b51a8248d15e3cb63880ac123a92dd6a67973a1eafc4c4cb09f3f74481f78"
 metafile = true
 
 [[files]]
+file = "mods/sable-cleanup.pw.toml"
+hash = "1c58b40f5c2fe60278fdff9a813dbf4dd8c101231a7055b877b2e0e2afc01def"
+metafile = true
+
+[[files]]
 file = "mods/sable-schematic-tool.pw.toml"
 hash = "b4ff234ab0bf79680738167c29c62c43fefe9187d15a891a4c91d14e9ec575db"
+metafile = true
+
+[[files]]
+file = "mods/sable-x-xaero-bridge.pw.toml"
+hash = "46a5135d51e3974f4949844f3764581632dfb2ed0d2efaf0ca496a05723864d8"
 metafile = true
 
 [[files]]
@@ -1580,6 +1604,11 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "c923ae43d9a62ea023a5641b5f144dbe8ea85715f162eb924159b8b719af1da6"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-radio.pw.toml"
+hash = "2016aad1b4925a00af8887564050dd9bfb083d194900c7d0e6021648cdee9876"
 metafile = true
 
 [[files]]
@@ -1814,4 +1843,4 @@ metafile = true
 
 [[files]]
 file = "servers.dat"
-hash = "38a1ab38ef7d4504ba5b16fe4c7f59c710d951b91f826109d8fa3f0f1e14458c"
+hash = "1c1336d00d4e3019e5461791d71160f1a09e19bb01c9ee4bfc7cb197d4b11c21"

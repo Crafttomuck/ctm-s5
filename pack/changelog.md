@@ -3,6 +3,13 @@
 ## 1.0.7
 
 ### Added
+- Frequency Create — symbol items for configuring Redstone Link frequencies
+- Simple Voice Radio (+ Lexiconfig) — radios for Simple Voice Chat
+- Reliquified Artifacts — integrates Artifacts items into the Relics leveling system
+- Lever drugster — reworks stepped levers from Create / Design n' Decor / Supplementaries
+- Sable CleanUp — find and manage every Sable sub-level on the server
+- Sable x Xaero Bridge — Sable ships on Xaero's map
+- Default server list entry for the creative server (creative.crafttomuck.com)
 - Create recipes for ManyIdeas panels and plates (pressing/deploying)
 - Rustic doors via deploying, with stonecutting style variants
 - Bulk dyeing of any planks to red planks via splashing
@@ -20,6 +27,11 @@
 - Create Stuff & Additions jetpacks tuned down: height caps (9–16 blocks),
   reduced speeds, Above Cloud enchant disabled
 - Immersive Furniture interact distance raised to 128
+- Title screen layout updated, with a separate compact layout for windows
+  narrower than 1400px
+
+### Removed
+- Create Jetpack and Create: Curios Jetpack & Backtank
 
 ## 1.0.6
 
