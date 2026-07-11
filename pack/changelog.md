@@ -31,7 +31,7 @@
   narrower than 1400px
 
 ### Updated
-- 24 mods updated to current versions (Sophisticated suite, Xaero's Minimap /
+- 21 mods updated to current versions (Sophisticated suite, Xaero's Minimap /
   World Map, Sodium 0.8.12 stable, Vista, Create: Stats & Additions, Create:
   Framed, LDLib, Open Parties and Claims, Epic Structures, Blueprint, Balm,
   ATi Structures, and more)
@@ -40,6 +40,12 @@
 - Create: Aeroworks 1.2.11 -> 1.3.0
 - Still pinned: Create: Garnished, Create: Enchantment Industry, Moog's
   Structure Lib
+- Sophisticated Backpacks/Storage Create Integrations held at their previous
+  versions and pinned: newer builds require JEI 19.32+, but TooManyRecipeViewers
+  (our JEI provider) still emulates 19.27
+- Moog's Voyager Structures held at 5.0.11 and pinned: 5.0.14 needs a newer
+  Moog's Structure Lib than our pinned 2.0.2 (missing
+  spawner_randomizing_processor breaks server datapack load)
 
 ### Removed
 - Create Jetpack and Create: Curios Jetpack & Backtank

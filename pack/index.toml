@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "396c93b16802218210c4fa2a608884f7cd42b315e6cc8f23633c5848b14e784a"
+hash = "5737f13f159c84928872b7927dec3a126a85aa5819002e7e7a110ad15398f1b6"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -1358,7 +1358,7 @@ metafile = true
 
 [[files]]
 file = "mods/moogs-voyager-structures.pw.toml"
-hash = "29c06b3e0967fc14ae933578876dbb94132f98c89e46449c9f33edf60bb3c762"
+hash = "193e2fe49a4ff97c99fa582adf3f4c1fc193347ec239434270fe9ff3f1a03209"
 metafile = true
 
 [[files]]
@@ -1638,7 +1638,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks-create-integration.pw.toml"
-hash = "f56e0c23ba34fcbb889c396b99f31a5f33365e00202b7728846e449825d58e03"
+hash = "14ac7300671f632f269dbee8ffee652f2e8218efbef8bf3736dff94305cf4094"
 metafile = true
 
 [[files]]
@@ -1658,7 +1658,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "7bc609b247bb1471d515e78a73d9cb6c1af8280be56df98268aaf23706f70164"
+hash = "c4c0e80110f0830c6aacd2f0b60009543c177bdf25ac153d6c868b53b3c5a5f6"
 metafile = true
 
 [[files]]
