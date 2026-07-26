@@ -20,6 +20,10 @@
 - Star Worm Goop can be put on most blocks to make them glow. Right click
   with it or use a deployer
 
+### Changed
+- Butterflies no longer spawn (there were way too many)
+- Foxhounds spawn much less often in the Nether
+
 ### Updated
 - Various mods
 

@@ -1,0 +1,12 @@
+[
+  {
+    "mob": "naturalist:butterfly",
+    "result": "deny"
+  },
+  {
+    "mob": "quark:foxhound",
+    "dimension": "minecraft:the_nether",
+    "random": 0.75,
+    "result": "deny"
+  }
+]

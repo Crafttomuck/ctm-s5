@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "11efb0aa7b1d65bb25ac4dbdbde98ec2ad69c6693f57638df1f12a839763dd12"
+hash = "fd57c8d92ac25cdcf1e99627b1e05bb62651bed69c41e7b827f1633fcf8b5c1b"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -251,6 +251,10 @@ hash = "bf2382f87e3ed76f8448e0aa4b242b1a64e1ce61e9dec83a39c62f25ebabcc0f"
 [[files]]
 file = "config/immersive_paintings/common_config.toml"
 hash = "952032c00e3e37dc8193ba24b247ca1066e532186a7cde002c7538cde2b29958"
+
+[[files]]
+file = "config/incontrol/spawn.json"
+hash = "157113459d175d23b54b1933b04c30a262a3f6a2c28450c6936104fe21c1f939"
 
 [[files]]
 file = "config/leaky.json"
