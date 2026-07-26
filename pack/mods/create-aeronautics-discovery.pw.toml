@@ -1,0 +1,13 @@
+name = "Create Aeronautics Discovery"
+filename = "aeronauticsdiscovery-1.5.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ddfcc417800e64f2be8ff26fb36d08152439ba91"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8507197
+project-id = 1580189

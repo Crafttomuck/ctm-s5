@@ -3,6 +3,15 @@
 ## 1.0.8
 
 ### Added
+- Accessories Compatibility Layer — trinkets/curios compatibility for Accessories
+- Create Encased — encased variants of Create kinetics (+ Collective library)
+- Death Backup — server-side backups of player inventories on death
+- Create Aeronautics Discovery — aeronautics progression/discovery addon
+- Climbable Ropes for Create Aeronautics
+- Create: Electro Energetics — electrical machinery for Create
+- Doggy Talents Next — expanded dog training and talents
+- Extreme Sound Muffler (client) — mute or muffle sounds selectively
+- Saturn — memory usage optimizations
 - /buyclaim — buy extra OPAC claim chunks with Numismatics coins (64 spurs base,
   +2% compounding per chunk)
 - /lag and /tets — server TPS and ping report
