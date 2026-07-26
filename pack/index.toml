@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "5737f13f159c84928872b7927dec3a126a85aa5819002e7e7a110ad15398f1b6"
+hash = "5180162a5433ddcccf59dcfe5ff21c9ef6da6ea03af11eee775827f5b94a8d85"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -38,7 +38,7 @@ hash = "de2b6355aa01d00ad6c7a487ac52e3029e370b4e0fe676ae4f92983f15dc9aaa"
 
 [[files]]
 file = "config/create-server.toml"
-hash = "1bb0288f4949026b8f5a78e2f5f31bafbd424008cfb8f712b3ef42c7064b2deb"
+hash = "9d526e5c62a74234e1e3f1d0dcca4e9e44a4b1e6ec0b2f547d85af6a0622fc2c"
 
 [[files]]
 file = "config/create-stuff-additions.toml"
@@ -245,6 +245,14 @@ file = "config/immersive_furniture.json"
 hash = "bf2382f87e3ed76f8448e0aa4b242b1a64e1ce61e9dec83a39c62f25ebabcc0f"
 
 [[files]]
+file = "config/immersive_paintings/common_config.toml"
+hash = "952032c00e3e37dc8193ba24b247ca1066e532186a7cde002c7538cde2b29958"
+
+[[files]]
+file = "config/openpartiesandclaims-server.toml"
+hash = "c46ac647a75a3f29ec4965e0f94aa0e4624c5f21d9de3b9cd3e38db10fd91743"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "1ae705d2d59c7057fe94652e67d62bce7e156ef3ceade58db6e2f618077ad895"
 
@@ -329,12 +337,24 @@ file = "kubejs/server_scripts/ae2_fluix_researcher.js"
 hash = "ede2e4648550e2de23f880b70491c675be4aa3b3338f20c505feb00c1778a065"
 
 [[files]]
+file = "kubejs/server_scripts/apply_goop.js"
+hash = "03a01931d9a5d2b412b14bd058e5987aacd3d0d51224676d36cb0a3a8f5c57bc"
+
+[[files]]
 file = "kubejs/server_scripts/broadcast.js"
 hash = "d6624387fbf39e1096a19d21dd04d1f40258e1c95f5eeb15053c2ceb6defd983"
 
 [[files]]
+file = "kubejs/server_scripts/buyclaim.js"
+hash = "eceacc7c38f1fb6d016d744b4f6b8d47d1d524c402e6cfa9aa8d7c17c6de16de"
+
+[[files]]
 file = "kubejs/server_scripts/chat.js"
 hash = "1ebe1f53be843dbfe336e23f031fe247d2dc1558ea259bcf07d198422a9453f3"
+
+[[files]]
+file = "kubejs/server_scripts/lagreport.js"
+hash = "76c24c501bf00c32d73a217fc47a6f3809583e98de1af259b12f33899cfaf533"
 
 [[files]]
 file = "kubejs/server_scripts/manyideas_panels_create.js"
@@ -370,7 +390,11 @@ hash = "85913675bf1e35edf34e53d76c11cf8179f1cbc3e434591cf347712904e9d644"
 
 [[files]]
 file = "kubejs/server_scripts/tfmg_concrete.js"
-hash = "f25b7bf56b2c6e27a7d3f491095bb0c7f0806fb66b877782a976f2896b2a4f9d"
+hash = "f8920e62f3cc369540d9a45244ea3cd55bc8e54e4ea4db1a301e21f3b0b48094"
+
+[[files]]
+file = "kubejs/server_scripts/tfmg_vat_concrete_fix.js"
+hash = "f9bb97d5bc84bcfa48e8a2e030907a324270264ac712770bb92a6ef8304e680a"
 
 [[files]]
 file = "kubejs/startup_scripts/formatting.js"

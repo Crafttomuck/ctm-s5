@@ -1,5 +1,24 @@
 # Changelog
 
+## 1.0.8
+
+### Added
+- /buyclaim — buy extra OPAC claim chunks with Numismatics coins (64 spurs base,
+  +2% compounding per chunk)
+- /lag and /tets — server TPS and ping report
+- Star Worm Goop can now be applied to ~280 vanilla blocks by right-click or
+  Create deploying to get their glowing variants
+- TFMG concrete from liquid concrete (heated compacting)
+
+### Changed
+- Claim economy: base OPAC claims lowered to 4 per player (grow via /buyclaim);
+  forceloads disabled; +100 claim bonus per party member
+- Fixed the TFMG chemical vat liquid concrete recipe never matching (output
+  capped to 4000 mB to work around a TFMG 1.2.2 bug)
+- Create: schematic size limits doubled (total 512 -> 1024 KB, packet 1024 -> 2048)
+- Immersive Paintings: collision and space checks off, image caps raised
+  (4096px, 1000 images, 256 max resolution)
+
 ## 1.0.7
 
 ### Added

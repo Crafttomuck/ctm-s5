@@ -1,4 +1,14 @@
 ServerEvents.recipes(event => {
+  // 1000 mB TFMG Liquid Concrete -> 1 TFMG Concrete
+  event.recipes.create.compacting(
+    'tfmg:concrete',
+    [
+      Fluid.of('tfmg:liquid_concrete', 1000)
+    ]
+  )
+  .heated()
+  .id('crafttomuck:compacting/tfmg_liquid_concrete_to_concrete')
+
   const colors = [
     'white',
     'light_gray',
