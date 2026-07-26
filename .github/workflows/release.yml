@@ -79,13 +79,17 @@ jobs:
 
           (cd server-build && zip -qr "../${{ steps.pack.outputs.server_zip }}" .)
 
-      - name: Upload artifacts
+      - name: Upload client artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ steps.pack.outputs.base }}-${{ steps.pack.outputs.version }}-${{ github.sha }}
-          path: |
-            ${{ steps.pack.outputs.client_zip }}
-            ${{ steps.pack.outputs.server_zip }}
+          name: ${{ steps.pack.outputs.base }}-client-${{ steps.pack.outputs.version }}-${{ github.sha }}
+          path: ${{ steps.pack.outputs.client_zip }}
+
+      - name: Upload server artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.pack.outputs.base }}-server-${{ steps.pack.outputs.version }}-${{ github.sha }}
+          path: ${{ steps.pack.outputs.server_zip }}
           if-no-files-found: ignore
 
       - name: Extract release notes from changelog
