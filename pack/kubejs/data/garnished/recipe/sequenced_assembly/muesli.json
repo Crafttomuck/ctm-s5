@@ -1,0 +1,83 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:bowl"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "garnished:muesli"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "garnished:incomplete_muesli"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        }
+      ],
+      "results": [
+        {
+          "id": "garnished:incomplete_muesli"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "garnished:incomplete_muesli"
+        },
+        {
+          "item": "garnished:peanut"
+        }
+      ],
+      "results": [
+        {
+          "id": "garnished:incomplete_muesli"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "garnished:incomplete_muesli"
+        },
+        {
+          "item": "garnished:peanut"
+        }
+      ],
+      "results": [
+        {
+          "id": "garnished:incomplete_muesli"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "garnished:incomplete_muesli"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "garnished:cashew_mixture"
+        }
+      ],
+      "results": [
+        {
+          "id": "garnished:incomplete_muesli"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "garnished:incomplete_muesli"
+  }
+}

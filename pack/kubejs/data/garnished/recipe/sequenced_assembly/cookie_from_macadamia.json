@@ -1,0 +1,67 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:dough"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "minecraft:cookie"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "garnished:incomplete_cookie"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 333,
+          "fluid": "create:chocolate"
+        }
+      ],
+      "results": [
+        {
+          "id": "garnished:incomplete_cookie"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "garnished:incomplete_cookie"
+        },
+        {
+          "item": "garnished:macadamia"
+        }
+      ],
+      "results": [
+        {
+          "id": "garnished:incomplete_cookie"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "garnished:incomplete_cookie"
+        },
+        {
+          "item": "garnished:macadamia"
+        }
+      ],
+      "results": [
+        {
+          "id": "garnished:incomplete_cookie"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "garnished:incomplete_cookie"
+  }
+}

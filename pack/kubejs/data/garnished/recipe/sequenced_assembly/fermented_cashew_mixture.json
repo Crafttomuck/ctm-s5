@@ -1,0 +1,51 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:glass_bottle"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "garnished:cashew_mixture"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "garnished:incomplete_cashew_mixture"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 100,
+          "fluid": "garnished:cashew_mixture"
+        }
+      ],
+      "results": [
+        {
+          "id": "garnished:incomplete_cashew_mixture"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "garnished:incomplete_cashew_mixture"
+        },
+        {
+          "item": "create:cinder_flour"
+        }
+      ],
+      "results": [
+        {
+          "id": "garnished:incomplete_cashew_mixture"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "garnished:incomplete_cashew_mixture"
+  }
+}

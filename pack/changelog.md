@@ -3,46 +3,32 @@
 ## 1.0.8
 
 ### Added
-- Accessories Compatibility Layer — trinkets/curios compatibility for Accessories
-- Create Encased — encased variants of Create kinetics (+ Collective library)
-- Death Backup — server-side backups of player inventories on death
-- Create Aeronautics Discovery — aeronautics progression/discovery addon
+- Accessories Compatibility Layer
 - Climbable Ropes for Create Aeronautics
-- Create: Electro Energetics — electrical machinery for Create
-- Doggy Talents Next — expanded dog training and talents
-- Extreme Sound Muffler (client) — mute or muffle sounds selectively
-- Saturn — memory usage optimizations
-- /buyclaim — buy extra OPAC claim chunks with Numismatics coins (64 spurs base,
-  +2% compounding per chunk)
-- /lag and /tets — server TPS and ping report
-- Star Worm Goop can now be applied to ~280 vanilla blocks by right-click or
-  Create deploying to get their glowing variants
-- TFMG concrete from liquid concrete (heated compacting)
+- Create Aeronautics Discovery
+- Create Encased
+- Create: Electro Energetics
+- Death Backup
+- Doggy Talents Next
+- Extreme Sound Muffler
+- Saturn
+- /buyclaim - buy more claim chunks with Numismatics coins. Each chunk costs
+  a bit more than the last. Everyone starts with 4 chunks
+- /lag - shows the server TPS and your ping
+- Star Worm Goop can be put on most blocks to make them glow. Right click
+  with it or use a deployer
 
 ### Updated
-- 44 mods updated to current versions (Supplementaries, Xaero's Minimap /
-  World Map, Moonlight, ModernFix, C2ME, Quark, Open Parties and Claims,
-  Vista, Immersive Furniture, and more)
-- Create Aeronautics Toolgun 0.2.3 -> 0.3.2 (server OP teleport gate updated to
-  1.0.1 for the relocated payload handler)
-- Sable Schematic Tool renamed upstream to Sable Photomancy (0.4.0 -> 1.0.0)
-- Newly pinned at TMRV/NeoForge-compatible versions: LDLib 2.2.28, the
-  Sophisticated suite (Core/Storage/Backpacks/Storage in Motion), End
-  Remastered 6.0.2 (newer builds need JEI 19.32+/19.39+, which TMRV 0.9.0
-  does not emulate, or NeoForge 21.1.243+)
-- Still pinned: Create: Garnished, Create: Enchantment Industry, Moog's
-  Voyager Structures, Sophisticated Backpacks / Storage Create Integrations
+- Various mods
 
-### Changed
-- Claim economy: base OPAC claims lowered to 4 per player (grow via /buyclaim);
-  forceloads disabled; +100 claim bonus per party member
-- Fixed the TFMG chemical vat liquid concrete recipe never matching (output
-  capped to 4000 mB to work around a TFMG 1.2.2 bug)
-- Create: schematic size limits doubled (total 512 -> 1024 KB, packet 1024 -> 2048)
-- Immersive Paintings: collision and space checks off, image caps raised
-  (4096px, 1000 images, 256 max resolution)
-- Vista: config migrated to the 5.2.x schema with FFmpeg disabled again, so
-  the Wave Gate FFmpeg download prompt no longer appears on first launch
+### Fixed
+- Recipes: every locometal color, Architect's Palette vertical slabs, red
+  plank washing, and TFMG concrete from liquid concrete all craft now
+- Copper nuggets: work in Power Grid's circuit design table again
+- TFMG vat: actually makes liquid concrete now
+- Vista no longer asks to download FFmpeg the first time you start the game
+- Bigger schematics are allowed, and Immersive Paintings can use bigger images
+- Cleaned up a bunch of errors in the logs
 
 ## 1.0.7
 

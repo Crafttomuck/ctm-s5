@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "6d2c185558d53599129dc3b9b52ee87b50508d703ae33e3c9225798f9cce0b69"
+hash = "5ea3a70e5ac9df4058da29c5e88fb8c6e429e640bccca5ffc05dee73a6f63295"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -27,6 +27,10 @@ hash = "2512b9c947342813ee667013941f07c3be8323ac4cb8d3d1686dd8530c7c66b1"
 [[files]]
 file = "config/almostunified/unification/materials.json"
 hash = "40cff1947aa79cfaf5a91ab8a7dff7e51f17173771c5bae8ac5e2d1f954d3762"
+
+[[files]]
+file = "config/architects_palette-common.toml"
+hash = "223b289f008c3a76aa1a1c7dbb46d70a351605699653e1c1b821b897a4ca66d7"
 
 [[files]]
 file = "config/artifacts/general.toml"
@@ -329,6 +333,42 @@ file = "kubejs/data/ae2/tags/worldgen/biome/has_meteorites.json"
 hash = "22183d53c306c891c16f928ea5f615df486871a35db6d6a778610c8d0637623e"
 
 [[files]]
+file = "kubejs/data/createcasing/recipe/sequenced_assembly/chorium_ingot.json"
+hash = "5569fda4909d27892add9257e65a2ced73af45c5bfcef58065f5ee41fe3fa71e"
+
+[[files]]
+file = "kubejs/data/garnished/recipe/sequenced_assembly/champion_omelette.json"
+hash = "c52a00c4687e52fe170ae26db55609f7c2f3759243a06ff55b4413c55e02dbc1"
+
+[[files]]
+file = "kubejs/data/garnished/recipe/sequenced_assembly/cookie_from_macadamia.json"
+hash = "94f061c5d0fae93bd2927b89dde0f2b8f691a526e72c519bcc42c298c46798ae"
+
+[[files]]
+file = "kubejs/data/garnished/recipe/sequenced_assembly/ender_dragon_egg.json"
+hash = "38c94bffb4610ba396fdb177b42bc93834d32fdbefb83b21a1289d40bf833d44"
+
+[[files]]
+file = "kubejs/data/garnished/recipe/sequenced_assembly/fermented_cashew_mixture.json"
+hash = "53336e6d2b37722f621c7d061af09350fb2302bc5e2fe7b49d82cd5298fde0b8"
+
+[[files]]
+file = "kubejs/data/garnished/recipe/sequenced_assembly/muesli.json"
+hash = "5d16180af0a7aaeef57a1154f7196ac783853905f7893896af30f31dc1eec352"
+
+[[files]]
+file = "kubejs/data/garnished/recipe/sequenced_assembly/nutty_melody.json"
+hash = "6f30f788e3647fa76654e9750f13a2bf6d755b7aef48c2de26dc697374bfecb0"
+
+[[files]]
+file = "kubejs/data/garnished/recipe/sequenced_assembly/peanut_oil_and_cinder_sandwich.json"
+hash = "3670ab531e321f66b741f0169d4555f0ac7bd294f857d11fb0e7bfe5525c8a32"
+
+[[files]]
+file = "kubejs/data/garnished/recipe/sequenced_assembly/tophet_brew.json"
+hash = "2b27aa2bd0ad8bfff8f9658d829cad18e1103420e54433fd27e0e07ddd67b347"
+
+[[files]]
 file = "kubejs/server_scripts/add_limesand_crushing.js"
 hash = "e1169c287922ece3162e8ad8c1775c080a64bd22a594fbda5d82e9b7d7256967"
 
@@ -362,7 +402,7 @@ hash = "4d10e03fee0d9e125abf2525ab9e0c5b88bb62fabdd0752ba9d875bdf8d6e726"
 
 [[files]]
 file = "kubejs/server_scripts/red_bulk_dyeing.js"
-hash = "7e28ec9aa6c30c89877b2f99aeb5704b4cb2428520fe7d5f579d1531ad2cfd20"
+hash = "191113cb124e197976d71b2929426a4cc2c990cb76a20152ac9bee2c149861db"
 
 [[files]]
 file = "kubejs/server_scripts/remove_compact_flap.js"
@@ -395,6 +435,10 @@ hash = "f8920e62f3cc369540d9a45244ea3cd55bc8e54e4ea4db1a301e21f3b0b48094"
 [[files]]
 file = "kubejs/server_scripts/tfmg_vat_concrete_fix.js"
 hash = "f9bb97d5bc84bcfa48e8a2e030907a324270264ac712770bb92a6ef8304e680a"
+
+[[files]]
+file = "kubejs/server_scripts/unified_tag_fixes.js"
+hash = "adfdc3d4f1acd5c65cf541d030bdd960d007ac7405952a9912e56398baa87ecd"
 
 [[files]]
 file = "kubejs/startup_scripts/formatting.js"
