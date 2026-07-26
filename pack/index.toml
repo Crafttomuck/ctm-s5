@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "5ea3a70e5ac9df4058da29c5e88fb8c6e429e640bccca5ffc05dee73a6f63295"
+hash = "11efb0aa7b1d65bb25ac4dbdbde98ec2ad69c6693f57638df1f12a839763dd12"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -251,6 +251,10 @@ hash = "bf2382f87e3ed76f8448e0aa4b242b1a64e1ce61e9dec83a39c62f25ebabcc0f"
 [[files]]
 file = "config/immersive_paintings/common_config.toml"
 hash = "952032c00e3e37dc8193ba24b247ca1066e532186a7cde002c7538cde2b29958"
+
+[[files]]
+file = "config/leaky.json"
+hash = "48ecf4efb2c7e6150e871c30e676d7def7c3a82cd28fb99eac4f55d7c2d5a04a"
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
@@ -1287,6 +1291,11 @@ metafile = true
 [[files]]
 file = "mods/ldlib.pw.toml"
 hash = "051b4cee90cbb2d4217cf00251c49d8c5208aec7d39c22f6c5364018450b56f4"
+metafile = true
+
+[[files]]
+file = "mods/leaky.pw.toml"
+hash = "d7fdd40f48a5314608ba2376cb04b115f179a9b137c250902724405835079cf6"
 metafile = true
 
 [[files]]

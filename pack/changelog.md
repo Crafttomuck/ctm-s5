@@ -11,6 +11,8 @@
 - Death Backup
 - Doggy Talents Next
 - Extreme Sound Muffler
+- Leaky - tells everyone in chat when a farm is spilling too many items,
+  and cleans up the mess
 - Saturn
 - /buyclaim - buy more claim chunks with Numismatics coins. Each chunk costs
   a bit more than the last. Everyone starts with 4 chunks
