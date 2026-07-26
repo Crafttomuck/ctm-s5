@@ -2,7 +2,7 @@ name: Build & Release
 
 on:
   push:
-    branches: [main]
+    tags: ["v*"]
 
 jobs:
   build:
@@ -24,6 +24,13 @@ jobs:
           echo "base=$base" >> "$GITHUB_OUTPUT"
           echo "client_zip=${base}-client-${ver}.zip" >> "$GITHUB_OUTPUT"
           echo "server_zip=${base}-server-${ver}.zip" >> "$GITHUB_OUTPUT"
+
+      - name: Check tag matches pack version
+        run: |
+          if [ "v${{ steps.pack.outputs.version }}" != "${{ github.ref_name }}" ]; then
+            echo "::error::Tag ${{ github.ref_name }} does not match pack.toml version ${{ steps.pack.outputs.version }}"
+            exit 1
+          fi
 
       - uses: actions/setup-go@v5
         with:
@@ -121,7 +128,6 @@ jobs:
             fi
           else
             gh release create "$tag" "${assets[@]}" \
-              --target "$GITHUB_SHA" \
               "${notes_args[@]}" \
               --title "$tag"
           fi
