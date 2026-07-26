@@ -1,13 +1,13 @@
-name = "Sable Schematic Tool"
-filename = "sable-schematic-api-0.4.0.jar"
+name = "Sable Photomancy"
+filename = "sable-photomancy-1.0.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a236eff3a54787421426aa9850db01f0bf2b9c9b"
+hash = "dd348b921e3b01740b9b0bc01423e122b5697818"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8247085
+file-id = 8504549
 project-id = 1526951

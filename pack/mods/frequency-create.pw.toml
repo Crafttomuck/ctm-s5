@@ -1,13 +1,13 @@
 name = "Frequency Create"
-filename = "frequency-1.21.1-neoforge-0.1.5.jar"
+filename = "frequency-1.21.1-neoforge-0.2.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c3fccdd3e4802567c83f478b008e29fcdd8609d7"
+hash = "49249ab4464b195165bd1700909dc5020633e766"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8135467
+file-id = 8505471
 project-id = 1535008

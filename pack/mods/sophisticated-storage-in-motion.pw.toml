@@ -1,6 +1,7 @@
 name = "Sophisticated Storage in Motion"
 filename = "sophisticatedstorageinmotion-1.21.1-0.10.32.317.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

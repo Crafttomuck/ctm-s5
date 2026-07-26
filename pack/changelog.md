@@ -19,6 +19,20 @@
   Create deploying to get their glowing variants
 - TFMG concrete from liquid concrete (heated compacting)
 
+### Updated
+- 44 mods updated to current versions (Supplementaries, Xaero's Minimap /
+  World Map, Moonlight, ModernFix, C2ME, Quark, Open Parties and Claims,
+  Vista, Immersive Furniture, and more)
+- Create Aeronautics Toolgun 0.2.3 -> 0.3.2 (server OP teleport gate updated to
+  1.0.1 for the relocated payload handler)
+- Sable Schematic Tool renamed upstream to Sable Photomancy (0.4.0 -> 1.0.0)
+- Newly pinned at TMRV/NeoForge-compatible versions: LDLib 2.2.28, the
+  Sophisticated suite (Core/Storage/Backpacks/Storage in Motion), End
+  Remastered 6.0.2 (newer builds need JEI 19.32+/19.39+, which TMRV 0.9.0
+  does not emulate, or NeoForge 21.1.243+)
+- Still pinned: Create: Garnished, Create: Enchantment Industry, Moog's
+  Voyager Structures, Sophisticated Backpacks / Storage Create Integrations
+
 ### Changed
 - Claim economy: base OPAC claims lowered to 4 per player (grow via /buyclaim);
   forceloads disabled; +100 claim bonus per party member
@@ -27,6 +41,8 @@
 - Create: schematic size limits doubled (total 512 -> 1024 KB, packet 1024 -> 2048)
 - Immersive Paintings: collision and space checks off, image caps raised
   (4096px, 1000 images, 256 max resolution)
+- Vista: config migrated to the 5.2.x schema with FFmpeg disabled again, so
+  the Wave Gate FFmpeg download prompt no longer appears on first launch
 
 ## 1.0.7
 
