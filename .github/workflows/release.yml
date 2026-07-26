@@ -2,6 +2,7 @@ name: Build & Release
 
 on:
   push:
+    branches: [main]
     tags: ["v*"]
 
 jobs:
@@ -26,6 +27,7 @@ jobs:
           echo "server_zip=${base}-server-${ver}.zip" >> "$GITHUB_OUTPUT"
 
       - name: Check tag matches pack version
+        if: startsWith(github.ref, 'refs/tags/')
         run: |
           if [ "v${{ steps.pack.outputs.version }}" != "${{ github.ref_name }}" ]; then
             echo "::error::Tag ${{ github.ref_name }} does not match pack.toml version ${{ steps.pack.outputs.version }}"
@@ -88,6 +90,7 @@ jobs:
 
       - name: Extract release notes from changelog
         id: notes
+        if: startsWith(github.ref, 'refs/tags/')
         run: |
           ver="${{ steps.pack.outputs.version }}"
           awk -v hdr="## $ver" '
@@ -103,6 +106,7 @@ jobs:
           fi
 
       - name: Create or update release
+        if: startsWith(github.ref, 'refs/tags/')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -137,7 +141,7 @@ jobs:
       #   - variable CURSEFORGE_PROJECT_ID = the modpack's CurseForge project ID
       #   - secret   CURSEFORGE_TOKEN      = a CurseForge API upload token
       - name: Publish client to CurseForge
-        if: ${{ vars.CURSEFORGE_PROJECT_ID != '' }}
+        if: ${{ startsWith(github.ref, 'refs/tags/') && vars.CURSEFORGE_PROJECT_ID != '' }}
         uses: Kir-Antipov/mc-publish@v3.3
         with:
           curseforge-id: ${{ vars.CURSEFORGE_PROJECT_ID }}

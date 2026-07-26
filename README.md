@@ -10,7 +10,7 @@ A Minecraft modpack for CraftToMuck Season 5. Managed with [packwiz](https://pac
 - `build.sh` — local build script for client and server zips
 - `start.sh` — server bootstrap/launcher; pins the modpack and NeoForge versions, downloads on first run or version bump, then `exec`s NeoForge
 - `sheets-sync/` — Google Sheets sync tooling (`modlist.py`, `config.json`, etc.)
-- `.github/workflows/release.yml` — CI that builds client (and optionally server) zips when a `v*` tag is pushed
+- `.github/workflows/release.yml` — CI that builds client (and optionally server) zips on every `main` push (as workflow artifacts) and publishes a GitHub release only when a `v*` tag is pushed
 
 ## Local builds
 
@@ -62,9 +62,9 @@ git tag v0.0.5
 git push origin main --tags
 ```
 
-The tag push (`v*`) triggers `.github/workflows/release.yml` — pushes to `main` alone do not release, so unreleased work can land on `main` freely. The workflow:
+`.github/workflows/release.yml` runs on every `main` push and on `v*` tags. Both build the zips and upload them as workflow artifacts, but only a tag push publishes a release — so unreleased work can land on `main` freely. The workflow:
 
-- Reads the version from `pack/pack.toml` and fails if it doesn't match the tag
+- Reads the version from `pack/pack.toml` and (on tags) fails if it doesn't match the tag
 - Builds a client zip via `packwiz curseforge export -s client`
 - If `CURSEFORGE_API_KEY` is set in repo secrets, also builds a server zip by downloading jars via `moddl`
 - Creates (or updates) the GitHub release `v<version>` with the zips attached
