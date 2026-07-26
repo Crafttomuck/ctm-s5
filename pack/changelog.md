@@ -23,6 +23,7 @@
 ### Changed
 - Butterflies no longer spawn (there were way too many)
 - Foxhounds spawn much less often in the Nether
+- Removed the Supplementaries config button from the title screen
 
 ### Updated
 - Various mods
