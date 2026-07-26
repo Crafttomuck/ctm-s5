@@ -2,7 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "dd4998b4ce42322f920bc74d8c4bab03ba2ae739ca9eea0c12398457c38750a4"
+hash = "3ba1fa0fa658f0d66f0d3a3408d47f38d05191a99a0ce6eb111c80d8ef99c4b7"
+
+[[files]]
+file = "config/aeronauticsdiscovery-common.toml"
+hash = "52f86389ce671cc1642405ebb3d9862e1e0e0fd467d783841ba114ee50176b4d"
 
 [[files]]
 file = "config/almostunified/debug.json"

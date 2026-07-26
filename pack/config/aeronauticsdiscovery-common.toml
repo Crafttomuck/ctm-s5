@@ -1,0 +1,9 @@
+[flyover]
+	#Base cooldown between flyover spawns per macro chunk (20 ticks = 1 second)
+	# Default: 12000
+	# Range: > 1
+	baseCooldownTicks = 144000
+	#Length in blocks of each macro chunk.
+	# Default: 128
+	# Range: 16 ~ 512
+	macroChunkSize = 512
