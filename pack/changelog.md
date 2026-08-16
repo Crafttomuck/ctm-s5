@@ -2,9 +2,10 @@
 
 ## 1.0.9
 
-### Changed
-- Aeronautics Discovery flyover ships show up way less often (about one
-  every 2 hours per area, and areas are much bigger)
+### Added
+- Create: Coasters Simulated
+- Create: Linear Bearing
+- Create: Power Chip
 
 ### Updated
 - Various mods

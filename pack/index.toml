@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "c2f9df73286d6522a669d3bf33e60831de5bbe7b22ade64a31f0cb7b812dee5c"
+hash = "605178b368571c1e0eced3bcdf34d5a65fd6713d42f70b8724c3184f378cbbf7"
 
 [[files]]
 file = "config/aeronauticsdiscovery-common.toml"
@@ -786,6 +786,11 @@ hash = "ee18c9b942d0f7902f387ebd144f998f564975b8258e05eb589ecea0a3f5dc17"
 metafile = true
 
 [[files]]
+file = "mods/create-coasters-simulated.pw.toml"
+hash = "792656064c1a91d6d5ec6add1e707c3c99b20668be099e836d6adff4703f43ae"
+metafile = true
+
+[[files]]
 file = "mods/create-compatible-storage.pw.toml"
 hash = "2ad2da0909772c24cec18c6691c9399e827e3a706e0ebe1417507677717c2b18"
 metafile = true
@@ -861,6 +866,11 @@ hash = "27ba9439d6b25314cfca911c474a9a34933dc7a25b4ee42ae3f2782f8d03b676"
 metafile = true
 
 [[files]]
+file = "mods/create-linear-bearing.pw.toml"
+hash = "386bb916f6ad29a4ccae107ae211ae8af79d589bd9b8c4d3876d997b0f077220"
+metafile = true
+
+[[files]]
 file = "mods/create-molten-vents.pw.toml"
 hash = "a997a99ed9988b4d88c1e9275860d6ad7fbef5f883a54d050f1d7aae91f5fd24"
 metafile = true
@@ -883,6 +893,11 @@ metafile = true
 [[files]]
 file = "mods/create-pattern-schematics.pw.toml"
 hash = "933542ef6b68b15a91e20f9d87cb1f03546d0081b12c2e489df860fd47b3be28"
+metafile = true
+
+[[files]]
+file = "mods/create-power-chip.pw.toml"
+hash = "bd3987afbdfc41afc5d5ca024646b591793dad1165a6445cc4a91aae8199318d"
 metafile = true
 
 [[files]]
