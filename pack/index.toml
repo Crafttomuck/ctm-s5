@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "changelog.md"
-hash = "605178b368571c1e0eced3bcdf34d5a65fd6713d42f70b8724c3184f378cbbf7"
+hash = "4338f34138c0e5681cea95a202d959b7aca0ea00e23c4b50d145a56fe694c226"
 
 [[files]]
 file = "config/aeronauticsdiscovery-common.toml"
