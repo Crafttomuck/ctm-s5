@@ -1,6 +1,7 @@
 name = "Create: Bits 'n' Bobs"
 filename = "bits_n_bobs-0.0.44.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

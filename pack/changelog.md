@@ -6,6 +6,9 @@
 - Aeronautics Discovery flyover ships show up way less often (about one
   every 2 hours per area, and areas are much bigger)
 
+### Updated
+- Various mods
+
 ## 1.0.8
 
 ### Added

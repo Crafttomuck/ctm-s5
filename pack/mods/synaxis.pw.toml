@@ -1,13 +1,13 @@
 name = "Synaxis"
-filename = "synaxis-1.4.3.jar"
+filename = "synaxis-1.5.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f764b1bef5840607f5f0e46606ec42d49980efa1"
+hash = "3b3dfa037f4766c00bb78634eb3b4ba1c7575268"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8412557
+file-id = 8606652
 project-id = 1526348

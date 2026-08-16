@@ -1,13 +1,13 @@
 name = "[Let's Do] WilderNature"
-filename = "letsdo-wildernature-neoforge-1.1.3.jar"
+filename = "letsdo-wildernature-neoforge-1.1.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "fadf6d8183fa583ed6c262bc8bf84fbd905c98c0"
+hash = "5307a4edc885ab949eed4438d9d7f9cb6176421d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6986772
+file-id = 8543233
 project-id = 1071657

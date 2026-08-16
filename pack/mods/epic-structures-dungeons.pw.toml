@@ -1,13 +1,13 @@
 name = "Epic Structures: Dungeons"
-filename = "Epic Dungeons 1.2.3.jar"
+filename = "epic-structures-dungeons-1.2.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "853c5df0c5e8bb92ba285ad0dc89da92d222461a"
+hash = "926c5032f8e93355d2ae0e5ee3cf89999c0f0b39"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8454517
+file-id = 8596052
 project-id = 1501318
